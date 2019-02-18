@@ -1,0 +1,10 @@
+@import 'colors';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, .uk-h1 {
+	color: $monet-blue;
+	font-weight: 700;
+}
