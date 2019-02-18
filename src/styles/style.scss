@@ -1,2 +1,7 @@
 @import 'colors';
 @import 'typography';
+
+body, html, #app {
+	height: 100%;
+	margin: 0;
+}
