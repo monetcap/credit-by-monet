@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import Vuikit from 'vuikit';
 import VuikitIcons from '@vuikit/icons';
+// eslint-disable-next-line
+import VuikitTheme from '@vuikit/theme';
+
 import App from './App.vue'
 
-// Linter will complain about this, don't worry
-import VuikitTheme from '@vuikit/theme';
 
 Vue.config.productionTip = false
 
