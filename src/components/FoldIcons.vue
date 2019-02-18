@@ -4,21 +4,33 @@
 <template>
 	<vk-grid class="fold-icons uk-child-width-1-2@s uk-child-width-expand@m uk-text-center">
 
-		<div>
-			<h3>Consoliate debt quickly</h3>
-		</div>
+		<vk-card type="blank">
+			<div slot="media-top">
+				<img src="../assets/icon-lightning.png"/>
+			</div>
+			<vk-card-title>Consolidate debt quickly</vk-card-title>
+		</vk-card>
 
-		<div>
-			<h3>Fast customer service</h3>
-		</div>
+		<vk-card type="blank">
+			<div slot="media-top">
+				<img src="../assets/icon-bunny.png"/>
+			</div>
+			<vk-card-title>Fast customer service</vk-card-title>
+		</vk-card>
 
-		<div>
-			<h3>Save money for other things</h3>
-		</div>
+		<vk-card type="blank">
+			<div slot="media-top">
+				<img src="../assets/icon-money-bag.png"/>
+			</div>
+			<vk-card-title>Save money for other things</vk-card-title>
+		</vk-card>
 
-		<div>
-			<h3>Provide ample support</h3>
-		</div>
+		<vk-card type="blank">
+			<div slot="media-top">
+				<img src="../assets/icon-money-hand.png"/>
+			</div>
+			<vk-card-title>Provide ample support</vk-card-title>
+		</vk-card>
 
 	</vk-grid>
 </template>
@@ -31,13 +43,18 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/colors';
+
 .fold-icons {
 	background-color: $monet-blue;
 
 	h2, h3 {
 		color: $white;
-		font-weight: 500;
+		font-weight: 700;
 		text-transform: uppercase;
+	}
+
+	& > * {
+		padding-top: 40px;
 	}
 }
 </style>
