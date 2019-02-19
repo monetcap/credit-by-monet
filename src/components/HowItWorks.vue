@@ -1,44 +1,49 @@
 <!-- Component for rendering the how it works section -->
 <template>
 	<div class="how-it-works">
-		<h1 class="uk-text-center">How it works</h1>
 
-		<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
+		<div>
 
-			<div>
-				<vk-card type="blank">
-					<div class="foo">
-						<img src="../assets/circle-icon-comment.png"/>
-						<h4 class="uk-text-uppercase">Review Your Finances</h4>
-					</div>
-					<p class="uk-text-lead">Review your debts, budget and credit free of
-						charge with a certified Credit counselor.</p>
-				</vk-card>
-			</div>
+			<h1 class="uk-text-center">How it works</h1>
 
-			<div>
-				<vk-card type="blank">
-					<div class="foo">
-						<img src="../assets/circle-icon-gesture.png"/>
-						<h4 class="uk-text-uppercase">We start when you are ready</h4>
-					</div>
-					<p class="uk-text-lead">Once you are ready to go, we will contact
-						your creditors to negotiate lower interest rates.</p>
-				</vk-card>
-			</div>
+			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
 
-			<div>
-				<vk-card type="blank">
-					<div class="foo">
-						<img src="../assets/circle-icon-dollar.png"/>
-						<h4 class="uk-text-uppercase">Get out of debt faster</h4>
-					</div>
-					<p class="uk-text-lead">Debt-free as soon as 36 months by one monthly
-						payment to us.  We take care of the rest.</p>
-				</vk-card>
-			</div>
+				<div>
+					<vk-card type="blank">
+						<div class="foo">
+							<img src="../assets/circle-icon-comment.png"/>
+							<h4 class="uk-text-uppercase">Review Your Finances</h4>
+						</div>
+						<p class="uk-text-lead">Review your debts, budget and credit free of
+							charge with a certified Credit counselor.</p>
+					</vk-card>
+				</div>
 
-		</vk-grid>
+				<div>
+					<vk-card type="blank">
+						<div class="foo">
+							<img src="../assets/circle-icon-gesture.png"/>
+							<h4 class="uk-text-uppercase">We start when you are ready</h4>
+						</div>
+						<p class="uk-text-lead">Once you are ready to go, we will contact
+							your creditors to negotiate lower interest rates.</p>
+					</vk-card>
+				</div>
+
+				<div>
+					<vk-card type="blank">
+						<div class="foo">
+							<img src="../assets/circle-icon-dollar.png"/>
+							<h4 class="uk-text-uppercase">Get out of debt faster</h4>
+						</div>
+						<p class="uk-text-lead">Debt-free as soon as 36 months by one monthly
+							payment to us.  We take care of the rest.</p>
+					</vk-card>
+				</div>
+
+			</vk-grid>
+
+		</div>
 
 	</div>
 </template>
@@ -52,8 +57,14 @@ export default {
 <style lang="scss" scoped>
 @import 'src/styles/colors';
 .how-it-works {
-	padding: 160px 0;
-	margin: 20px;
+	min-height: 100%;
+	margin: 30px 20px;
+	display: flex;
+	align-items: center;
+
+	& > div {
+		width: 100%;
+	}
 
 	.foo {
 		display: flex;
