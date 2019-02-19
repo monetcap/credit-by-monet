@@ -13,6 +13,7 @@
 						<!-- NOTE: technically star_rate is an acceptable alias for star in
 							material icons.  However, for whatever reason it takes up an
 							obscene amount of room.  So, in the future, never use star_rate -->
+						<!-- eslint-disable -->
 						<i class="material-icons filled" v-for="n in 5">
 							star
 						</i>
