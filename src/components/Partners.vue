@@ -59,16 +59,18 @@ export default {
 	display: flex;
 	align-items: center;
 	min-height: 100%;
-	padding: 30px 20px;
+	padding: 30px 60px;
 
 	& > div {
-	width: 100%;
+		width: 100%;
 	}
 }
 
 .good-team {
 	padding: 20px;
+	margin-bottom: 10px;
 	background-color: $light-grey;
+	border-bottom-right-radius: 30px;
 
 	h2 {
 		font-weight: 500;
