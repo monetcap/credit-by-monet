@@ -34,6 +34,7 @@
 				</div>
 
 			</vk-grid>
+			
 		</div>
 
 	</div>
