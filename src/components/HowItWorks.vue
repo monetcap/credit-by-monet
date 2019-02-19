@@ -8,6 +8,8 @@
 
 			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
 
+				<!-- Seems bizarre, but we need to wrap cards in divs in order to make
+					gutters actually work -->
 				<div>
 					<vk-card type="blank">
 						<div class="foo">
@@ -58,7 +60,7 @@ export default {
 @import 'src/styles/colors';
 .how-it-works {
 	min-height: 100%;
-	margin: 30px 20px;
+	padding: 30px 20px;
 	display: flex;
 	align-items: center;
 

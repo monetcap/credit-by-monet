@@ -8,6 +8,8 @@
     <FoldIcons />
 
     <HowItWorks />
+
+    <Testimonials />
   </div>
 </template>
 
@@ -16,13 +18,15 @@ import FoldIcons from './components/FoldIcons.vue';
 import Hero from './components/Hero.vue';
 import HowItWorks from './components/HowItWorks.vue';
 import Navbar from './components/Navbar.vue';
+import Testimonials from './components/Testimonials.vue';
 export default {
   name: 'app',
   components: {
     FoldIcons,
     Hero,
     HowItWorks,
-    Navbar
+    Navbar,
+    Testimonials
   }
 }
 </script>
