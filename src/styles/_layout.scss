@@ -1,0 +1,9 @@
+.full-height-centered {
+	display: flex;
+	align-items: center;
+	min-height: 100%;
+
+	& > div {
+		width: 100%;
+	}
+}
