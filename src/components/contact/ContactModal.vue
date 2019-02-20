@@ -1,11 +1,13 @@
-<!-- Component for rendering the partner contact form, presented as a modal-->
+<!-- Component for rendering a contact form, presented as a modal.  The app
+	currently has two with identical layouts but varying presentation, so we use
+	props to control the latter -->
 <template>
 	<vk-modal :show.sync="show" size="container" class="partner-contact">
 
 		<vk-modal-close @click="$emit('update:show', false)"/>
 
 		<vk-modal-title class="uk-text-uppercase uk-text-center">
-			We'd make a good team
+			{{ title }}
 		</vk-modal-title>
 
 		<!-- Beginning of form proper -->
@@ -56,18 +58,33 @@
 <script>
 export default {
 	name: "PartnerContact",
-	props: ['show']
+	props: ['show', 'title', 'type']
 }
 </script>
 
 <style lang="scss">
 @import 'src/styles/colors';
 .partner-contact .uk-modal-dialog {
+
 	background-color: $monet-blue;
 
 	h2 {
 		color: $white;
 		font-weight: 500;
 	}
+
+
+}
+
+.partner-contact.bg-white {
+
+	.uk-modal-dialog {
+		background-color: $white;
+	}
+
+	h2 {
+		color: $monet-gold;
+	}
+
 }
 </style>

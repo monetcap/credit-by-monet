@@ -4,7 +4,7 @@
 	<div class="partners">
 
 		<!-- Render this contact form if someone clicks the button -->
-		<PartnerContact :show.sync="show"/>
+		<ContactModal :show.sync="show"/>
 
 		<div>
 			<h2 class="uk-h1 uk-text-center">Partners</h2>
@@ -34,7 +34,7 @@
 				</div>
 
 			</vk-grid>
-			
+
 		</div>
 
 	</div>
@@ -42,10 +42,10 @@
 </template>
 
 <script>
-import PartnerContact from './contact/PartnerContact.vue';
+import ContactModal from './contact/ContactModal.vue';
 export default {
 	name: "Partners",
-	components: { PartnerContact },
+	components: { ContactModal },
 	data: function() {
 		return {
 			show: false
