@@ -4,7 +4,7 @@
 	<div class="partners">
 
 		<!-- Render this contact form if someone clicks the button -->
-		<ContactModal :show.sync="show"/>
+		<ContactModal :show.sync="show" title="We'd make a good team"/>
 
 		<div>
 			<h2 class="uk-h1 uk-text-center">Partners</h2>

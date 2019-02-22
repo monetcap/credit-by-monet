@@ -3,6 +3,7 @@
 	<div class="hero">
 
 		<SliderForm :show.sync="show"/>
+		<SubmittedModal :show.sync="submitted"/>
 
 		<div>
 
@@ -30,7 +31,8 @@ export default {
 	components: { SliderForm },
 	data: function() {
 		return {
-			show: false
+			show: false,
+			submitted: false,
 		}
 	}
 }
