@@ -60,7 +60,41 @@ export default {
 </script>
 
 <style lang="scss">
-.uk-tab > * > a{
+@import 'src/styles/colors';
+
+.uk-tab {
+	background-color: $light-grey;
+}
+
+.uk-tab > *.uk-disabled, .uk-tab > *.uk-active {
+	background-color: $monet-blue;
+
+	& > a {
+		color: $white;
+	}
+}
+
+.uk-tab > *.uk-disabled ~ * {
+	background-color: $monet-blue;
+
+	& > a {
+		color: $white;
+	}
+}
+
+.uk-tab *.uk-active ~ * {
+	background-color: $light-grey;
+
+	& > a {
+		color: $black;	
+	}
+}
+
+.uk-tab > * > a {
 	padding: 20px;
+}
+
+.uk-tab-left::before {
+	border-left-color: $monet-blue;
 }
 </style>
