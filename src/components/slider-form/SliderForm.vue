@@ -9,8 +9,8 @@
 		<vk-tabs-vertical align="left" v-bind:active-tab="1">
 
 			<vk-tabs-item title="$45,000" disabled></vk-tabs-item>
-			<vk-tabs-item title="How Soon" active>
-				<HowSoon amount="45,000"/>
+			<vk-tabs-item v-bind:title="howSoonTitle" active>
+				<HowSoon amount="45,000" v-model="yearsFromNow"/>
 			</vk-tabs-item>
 			<vk-tabs-item title="Credit Cards">
 				<CardAccounts/>
@@ -20,6 +20,9 @@
 			</vk-tabs-item>
 			<vk-tabs-item title="Industry">
 				<Industry />
+			</vk-tabs-item>
+			<vk-tabs-item title="Contact">
+				<SliderContact />
 			</vk-tabs-item>
 
 		</vk-tabs-vertical>
@@ -33,13 +36,15 @@ import AnnualIncome from './AnnualIncome.vue';
 import CardAccounts from './CardAccounts.vue';
 import HowSoon from './HowSoon.vue';
 import Industry from './Industry.vue';
+import SliderContact from './SliderContact.vue';
 export default {
 	name: "SliderForm",
 	components: {
 		AnnualIncome,
 		CardAccounts,
 		HowSoon,
-		Industry
+		Industry,
+		SliderContact
 	},
 	props: ['show'],
 	data: function() {
@@ -54,6 +59,24 @@ export default {
 				email: String,
 				phone: Number
 			}
+		}
+	},
+
+	computed: {
+
+		// When we determine the timeline for when the user wants to pay off their
+		// debt we store only a number (occasionally with a plus).  This computed
+		// prop turns that number into a more human-readable title.
+		howSoonTitle: function() {
+
+			if (this.yearsFromNow && this.yearsFromNow <= 5) {
+				return `${this.yearsFromNow} years from now`;
+			} else if (this.yearsFromNow === '5+') {
+				return "More than 5 years";
+			}
+
+			return "How Soon";
+
 		}
 	}
 }
@@ -86,7 +109,7 @@ export default {
 	background-color: $light-grey;
 
 	& > a {
-		color: $black;	
+		color: $black;
 	}
 }
 
