@@ -9,18 +9,23 @@
 		<vk-tabs-vertical align="left" v-bind:active-tab="1">
 
 			<vk-tabs-item title="$45,000" disabled></vk-tabs-item>
+
 			<vk-tabs-item v-bind:title="howSoonTitle" active>
 				<HowSoon amount="45,000" v-model="yearsFromNow"/>
 			</vk-tabs-item>
-			<vk-tabs-item title="Credit Cards">
-				<CardAccounts/>
+
+			<vk-tabs-item v-bind:title="creditCardsTitle">
+				<CardAccounts v-model="creditCards"/>
 			</vk-tabs-item>
+
 			<vk-tabs-item title="Monthly Income">
 				<AnnualIncome />
 			</vk-tabs-item>
+
 			<vk-tabs-item title="Industry">
 				<Industry />
 			</vk-tabs-item>
+
 			<vk-tabs-item title="Contact">
 				<SliderContact />
 			</vk-tabs-item>
@@ -49,9 +54,9 @@ export default {
 	props: ['show'],
 	data: function() {
 		return {
-			yearsFromNow: Number,
-			creditCards: Number,
-			income: Number,
+			yearsFromNow: String,
+			creditCards: String,
+			income: String,
 			industry: String,
 			contact: {
 				firstName: String,
@@ -63,6 +68,26 @@ export default {
 	},
 
 	computed: {
+
+		// Generates a human-readable, dynamic title for credit cards tab
+		creditCardsTitle: function() {
+
+			if (this.creditCards) {
+				switch(this.creditCards) {
+					case '1':
+						return "1-2 credit cards";
+					case '3':
+						return "3-5 credit cards";
+					case '5':
+						return "5-10 credit cards";
+					case '10':
+						return "More than 10 credit cards";
+				}
+			}
+
+			return "Credit Cards";
+
+		},
 
 		// When we determine the timeline for when the user wants to pay off their
 		// debt we store only a number (occasionally with a plus).  This computed
