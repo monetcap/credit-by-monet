@@ -11,23 +11,23 @@
 			<vk-tabs-item title="$45,000" disabled></vk-tabs-item>
 
 			<vk-tabs-item v-bind:title="howSoonTitle" active>
-				<HowSoon amount="45,000" v-model="yearsFromNow"/>
+				<HowSoon amount="45,000" v-model="yearsFromNow" class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item v-bind:title="creditCardsTitle">
-				<CardAccounts v-model="creditCards"/>
+				<CardAccounts v-model="creditCards" class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Monthly Income">
-				<AnnualIncome />
+				<AnnualIncome class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Industry">
-				<Industry />
+				<Industry class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Contact">
-				<SliderContact />
+				<SliderContact class="slider-content"/>
 			</vk-tabs-item>
 
 		</vk-tabs-vertical>
@@ -144,5 +144,10 @@ export default {
 
 .uk-tab-left::before {
 	border-left-color: $monet-blue;
+}
+
+.slider-content {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 </style>

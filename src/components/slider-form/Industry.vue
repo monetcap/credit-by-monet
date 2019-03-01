@@ -2,7 +2,7 @@
 	in -->
 <template>
 	<div>
-		<h2 class="uk-text-uppercase">What industry are you in?</h2>
+		<h2 class="semi-bold text-gold uk-text-uppercase">What industry are you in?</h2>
 
 		<select class="uk-select">
 			<option>Accommodation & Food Services</option>

@@ -2,7 +2,8 @@
 <template>
 
 	<div>
-		<h2 class="text-gold">How soon would you like to pay off ${{ amount }}</h2>
+		<h2 class="text-gold semi-bold uk-text-uppercase">How soon would you like
+			to pay off ${{ amount }}?</h2>
 
 		<form class="uk-form-stacked">
 			<div class="uk-form-controls">
@@ -43,9 +44,3 @@ export default {
 	props: ['amount', 'value']
 }
 </script>
-
-<style lang="scss" scoped>
-.uk-text-lead {
-	font-size: 20px;
-}
-</style>

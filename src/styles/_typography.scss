@@ -9,6 +9,18 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
 	font-weight: 700;
 }
 
+.uk-text-lead {
+	font-size: 20px;
+}
+
+.semi-bold {
+	font-weight: 500;
+}
+
 .text-gold {
 	color: $monet-gold;
+}
+
+.text-blue {
+	color: $monet-blue;
 }
