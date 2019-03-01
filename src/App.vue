@@ -14,12 +14,15 @@
     <Partners />
 
     <DebtRelief />
+
+    <Footer />
   </div>
 </template>
 
 <script>
 import DebtRelief from './components/DebtRelief.vue';
 import FoldIcons from './components/FoldIcons.vue';
+import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
 import HowItWorks from './components/HowItWorks.vue';
 import Navbar from './components/Navbar.vue';
@@ -30,6 +33,7 @@ export default {
   components: {
     DebtRelief,
     FoldIcons,
+    Footer,
     Hero,
     HowItWorks,
     Navbar,
