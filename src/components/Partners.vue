@@ -1,15 +1,16 @@
 <!-- Component for rendering the partners section -->
 <template>
 
-	<div class="partners">
+	<div class="partners uk-container">
 
 		<!-- Render this contact form if someone clicks the button -->
 		<ContactModal :show.sync="show" title="We'd make a good team"/>
 
 		<div>
+
 			<h2 class="uk-h1 uk-text-center">Partners</h2>
 
-			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
+			<vk-grid gutter="large" class="uk-child-width-expand@m">
 
 				<div>
 					<div class="good-team">
@@ -30,7 +31,7 @@
 				</div>
 
 				<div>
-					<!-- Partner graphic goes here -->
+					<img src="../assets/monet-partners-graphic.png"/>
 				</div>
 
 			</vk-grid>
@@ -60,7 +61,8 @@ export default {
 	display: flex;
 	align-items: center;
 	min-height: 100%;
-	padding: 30px 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 
 	& > div {
 		width: 100%;
