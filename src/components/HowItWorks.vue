@@ -73,11 +73,11 @@ export default {
 		align-items: center;
 
 		& h4 {
-			width: 100%;
-			flex-grow: 1;
+			width: 50%;
 		}
 
 		& img {
+			width: 50%;
 			margin-right: 20px;
 		}
 	}
