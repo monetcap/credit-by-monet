@@ -4,7 +4,7 @@
 
 		<div>
 
-			<h1 class="uk-text-center">How it works</h1>
+			<h1 class="uk-text-center uk-margin-large">How it works</h1>
 
 			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
 

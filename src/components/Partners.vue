@@ -8,7 +8,7 @@
 
 		<div>
 
-			<h2 class="uk-h1 uk-text-center">Partners</h2>
+			<h2 class="uk-h1 uk-text-center uk-margin-large">Partners</h2>
 
 			<vk-grid gutter="large" class="uk-child-width-expand@m">
 

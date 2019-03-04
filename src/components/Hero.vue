@@ -18,6 +18,10 @@
 			<vk-button type="primary" @click="show = true">
 				Slider Trigger
 			</vk-button>
+			<form>
+				<input type="range">
+				</input>
+			</form>
 
 		</div>
 
