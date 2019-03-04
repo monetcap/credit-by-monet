@@ -22,8 +22,8 @@
 				<AnnualIncome v-model="income" class="slider-content"/>
 			</vk-tabs-item>
 
-			<vk-tabs-item title="Industry">
-				<Industry class="slider-content"/>
+			<vk-tabs-item v-bind:title="industryTitle">
+				<Industry v-model="industry" class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Contact">
@@ -52,12 +52,16 @@ export default {
 		SliderContact
 	},
 	props: ['show'],
+
 	data: function() {
 		return {
 			yearsFromNow: String,
 			creditCards: String,
 			income: String,
-			industry: String,
+			industry: {
+				value: String,
+				specifics: String
+			},
 			contact: {
 				firstName: String,
 				lastName: String,
@@ -110,6 +114,16 @@ export default {
 				return "Monthly Income";
 			}
 			return this.income;
+
+		},
+
+		industryTitle: function() {
+
+			if (typeof this.industry.value === "function") {
+				return "Industry";
+			}
+
+			return this.industry.value;
 
 		}
 
