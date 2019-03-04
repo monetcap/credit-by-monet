@@ -18,8 +18,8 @@
 				<CardAccounts v-model="creditCards" class="slider-content"/>
 			</vk-tabs-item>
 
-			<vk-tabs-item title="Monthly Income">
-				<AnnualIncome class="slider-content"/>
+			<vk-tabs-item v-bind:title="incomeTitle">
+				<AnnualIncome v-model="income" class="slider-content"/>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Industry">
@@ -102,7 +102,17 @@ export default {
 
 			return "How Soon";
 
+		},
+
+		incomeTitle: function() {
+
+			if (typeof this.income === "function") {
+				return "Monthly Income";
+			}
+			return this.income;
+
 		}
+
 	}
 }
 </script>
