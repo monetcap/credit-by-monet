@@ -2,7 +2,7 @@
 	currently has two with identical layouts but varying presentation, so we use
 	props to control the latter -->
 <template>
-	<vk-modal :show.sync="show" size="container" class="partner-contact">
+	<vk-modal :show.sync="show" size="3-4" class="partner-contact">
 
 		<vk-modal-close @click="$emit('update:show', false)"/>
 
