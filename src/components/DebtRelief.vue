@@ -23,7 +23,10 @@
 				</div>
 
 				<div>
-					<img src="../assets/monet-service-map.png"/>
+					<img
+						src="../assets/monet-service-map.png"
+						alt="National debt relief throughout the United States."
+					/>
 				</div>
 			</vk-grid>
 

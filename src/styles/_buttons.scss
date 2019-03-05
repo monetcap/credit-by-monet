@@ -1,0 +1,15 @@
+.uk-button {
+	margin: 10px 0;
+	border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+  text-transform: none;
+
+	&.uk-button-primary {
+		background-color: $monet-gold;
+	}
+
+	&.uk-button-secondary {
+		background-color: $monet-blue;
+	}
+}

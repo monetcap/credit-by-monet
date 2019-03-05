@@ -31,7 +31,10 @@
 				</div>
 
 				<div>
-					<img src="../assets/monet-partners-graphic.png"/>
+					<img
+						src="../assets/monet-partners-graphic.png"
+						alt="Partner with us and maximize your profits."
+					/>
 				</div>
 
 			</vk-grid>
