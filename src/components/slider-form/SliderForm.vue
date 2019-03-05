@@ -1,6 +1,6 @@
 <template>
 
-	<vk-modal :show.sync="show" size="container">
+	<vk-modal :show.sync="show" size="3-4">
 
 		<vk-modal-close @click="$emit('update:show', false)"></vk-modal-close>
 
@@ -27,7 +27,7 @@
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Contact">
-				<SliderContact class="slider-content"/>
+				<SliderContact class="slider-content" v-model="contact"/>
 			</vk-tabs-item>
 
 		</vk-tabs-vertical>
@@ -63,10 +63,10 @@ export default {
 				specifics: String
 			},
 			contact: {
-				firstName: String,
-				lastName: String,
-				email: String,
-				phone: Number
+				firstName: "",
+				lastName: "",
+				email: "",
+				phone: ""
 			}
 		}
 	},
@@ -124,6 +124,15 @@ export default {
 			}
 
 			return this.industry.value;
+
+		},
+
+		methods: {
+
+			// Handles submission event triggered by apply now button.
+			handleSubmit: function() {
+
+			}
 
 		}
 
