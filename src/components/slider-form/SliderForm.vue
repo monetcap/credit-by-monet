@@ -1,6 +1,6 @@
 <template>
 
-	<vk-modal :show.sync="show" size="container">
+	<vk-modal :show.sync="show" size="3-4">
 
 		<vk-modal-close @click="$emit('update:show', false)"></vk-modal-close>
 
@@ -124,6 +124,15 @@ export default {
 			}
 
 			return this.industry.value;
+
+		},
+
+		methods: {
+
+			// Handles submission event triggered by apply now button.
+			handleSubmit: function() {
+
+			}
 
 		}
 
