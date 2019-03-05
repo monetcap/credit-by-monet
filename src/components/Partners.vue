@@ -13,8 +13,8 @@
 			<vk-grid gutter="large" class="uk-child-width-expand@m">
 
 				<div>
-					<div class="good-team">
-						<h2 class="uk-text-uppercase">We'd make a good team.</h2>
+					<div class="good-team uk-padding">
+						<h2 class="uk-text-uppercase uk-margin-top">We'd make a good team.</h2>
 
 						<p class="uk-text-lead">Credit by Monet Capital is able to negotiate lowered interest rates
 							and minimized fees in half the time of our competitors.</p>
@@ -25,13 +25,14 @@
 						<p class="uk-text-lead">We look forward to working with you!</p>
 					</div>
 
-					<vk-button size="large" type="primary" @click="show = true">
+					<vk-button class="uk-width-1-1" size="large" type="primary" @click="show = true">
 						Team up with us
 					</vk-button>
 				</div>
 
 				<div>
 					<img
+					  class="uk-padding uk-padding-remove-vertical"
 						src="../assets/monet-partners-graphic.png"
 						alt="Partner with us and maximize your profits."
 					/>
@@ -73,9 +74,8 @@ export default {
 }
 
 .good-team {
-	padding: 20px;
 	margin-bottom: 10px;
-	background-color: $light-grey;
+	background-color: rgba(216, 216, 216, 0.5);
 	border-bottom-right-radius: 30px;
 
 	h2 {
