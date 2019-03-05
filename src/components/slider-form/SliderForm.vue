@@ -27,7 +27,7 @@
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Contact">
-				<SliderContact class="slider-content"/>
+				<SliderContact class="slider-content" v-model="contact"/>
 			</vk-tabs-item>
 
 		</vk-tabs-vertical>
@@ -63,10 +63,10 @@ export default {
 				specifics: String
 			},
 			contact: {
-				firstName: String,
-				lastName: String,
-				email: String,
-				phone: Number
+				firstName: "",
+				lastName: "",
+				email: "",
+				phone: ""
 			}
 		}
 	},
