@@ -1,22 +1,16 @@
+// 1. Import custom styles.
+
 @import 'colors';
 @import 'forms';
 @import 'typography';
 
+// 2. Import component customizations.
+@import 'buttons';
+@import 'fold-icons';
+
+@import 'buttons';
+
 body, html, #app {
 	height: 100%;
 	margin: 0;
-}
-
-.uk-button {
-	margin: 10px 0;
-	border-radius: 4px;
-	font-weight: 500;
-
-	&.uk-button-primary {
-		background-color: $monet-gold;
-	}
-
-	&.uk-button-secondary {
-		background-color: $monet-blue;
-	}
 }

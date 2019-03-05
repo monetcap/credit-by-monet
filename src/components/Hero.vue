@@ -19,6 +19,10 @@
 				Slider Trigger
 			</vk-button>
 
+			<form>
+				<input type="range">
+			</form>
+
 		</div>
 
 	</div>

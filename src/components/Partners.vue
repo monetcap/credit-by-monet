@@ -8,7 +8,7 @@
 
 		<div>
 
-			<h2 class="uk-h1 uk-text-center">Partners</h2>
+			<h2 class="uk-h1 uk-text-center uk-margin-large">Partners</h2>
 
 			<vk-grid gutter="large" class="uk-child-width-expand@m">
 
@@ -31,7 +31,10 @@
 				</div>
 
 				<div>
-					<img src="../assets/monet-partners-graphic.png"/>
+					<img
+						src="../assets/monet-partners-graphic.png"
+						alt="Partner with us and maximize your profits."
+					/>
 				</div>
 
 			</vk-grid>
