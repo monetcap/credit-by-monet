@@ -2,7 +2,7 @@
 <template>
 	<div class="how-it-works">
 
-		<div>
+		<div class="uk-container">
 
 			<h1 class="uk-text-center uk-margin-large">How it works</h1>
 
@@ -46,7 +46,7 @@
 			</vk-grid>
 
 		</div>
-
+		
 	</div>
 </template>
 

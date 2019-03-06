@@ -2,9 +2,9 @@
 	contains the map. -->
 <template>
 
-	<div class="debt-relief uk-container uk-padding-large">
+	<div class="debt-relief uk-padding-large">
 
-		<div>
+		<div class="uk-container">
 
 			<h1 class="uk-h1 uk-text-center">Debt relief wherever you are.</h1>
 

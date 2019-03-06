@@ -2,7 +2,7 @@
 <template>
 	<div class="testimonials">
 
-		<div>
+		<div class="uk-container">
 			<h2 class="uk-h1 uk-text-center uk-margin-large">Testimonials</h2>
 
 			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
