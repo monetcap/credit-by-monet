@@ -14,14 +14,7 @@
 					to 30-50%!</p>
 			</div>
 
-			<!-- Fancy Slider -->
-			<vk-button type="primary" @click="show = true">
-				Slider Trigger
-			</vk-button>
-
-			<form>
-				<input type="range">
-			</form>
+			<IncomeSlider v-model="sliderIncome" @mouseup="show = true"/>
 
 		</div>
 
@@ -29,14 +22,16 @@
 </template>
 
 <script>
+import IncomeSlider from './slider-form/IncomeSlider.vue';
 import SliderForm from './slider-form/SliderForm.vue';
 export default {
 	name: "Hero",
-	components: { SliderForm },
+	components: { IncomeSlider, SliderForm },
 	data: function() {
 		return {
 			show: false,
 			submitted: false,
+			sliderIncome: 0
 		}
 	}
 }
