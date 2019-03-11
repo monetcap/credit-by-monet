@@ -2,17 +2,23 @@
 <template>
 	<form class="uk-container-small uk-margin-top uk-margin-auto">
 
-		<span class="thumb" v-bind:style="{'left': `${offsetLeft}px`}">
-			<i class="material-icons">
-				attach_money
-			</i>
+		<span id="sliderTooltip" class="tooltip" v-bind:style="{'left': `${tooltipOffset}px`}">
+			${{ value }}
+			<span class="arrow"></span>
 		</span>
 
-		<input type="range" min="0" max="50000" step="500"
-			:value="value"
-			@input="slide"
-			@mouseup="$emit('mouseup')"/>
+		<div class="slider">
+			<span class="thumb" v-bind:style="{'left': `${offsetLeft}px`}">
+				<i class="material-icons">
+					attach_money
+				</i>
+			</span>
 
+			<input type="range" min="1000" max="75000" step="1000"
+				:value="value"
+				@input="slide"
+				@mouseup="$emit('mouseup')"/>
+		</div>
 	</form>
 </template>
 
@@ -22,7 +28,8 @@ export default {
 	props: ['value'],
 	data: function() {
 		return {
-			offsetLeft: 0
+			offsetLeft: 0,
+			tooltipOffset: 0,
 		}
 	},
 
@@ -30,11 +37,23 @@ export default {
 
 		slide: function(event) {
 
-			let percentage = (event.target.value / 50000);
+			let percentage = ((event.target.value - 1000) / 74000);
 			let compensation = (percentage * 36) - 2;
 
+			let tooltipWidth = document.getElementById('sliderTooltip').clientWidth;
+			let tooltipCompensation = (percentage * tooltipWidth);
+
 			this.offsetLeft = percentage * event.target.clientWidth - compensation;
+			this.tooltipOffset = percentage * event.target.clientWidth - tooltipCompensation / 2;
 			this.$emit('input', event.target.value);
+
+		}
+
+	},
+
+	computed: {
+
+		formattedValue: function() {
 
 		}
 
@@ -46,9 +65,14 @@ export default {
 @import 'src/styles/colors';
 
 form {
+	text-align: left;
+}
+
+.slider {
 	display: flex;
 	align-items: center;
 	position: relative;
+	margin-top: 25px;
 }
 
 input[type=range] {
@@ -117,14 +141,14 @@ input[type=range] {
 
 	&::-webkit-slider-runnable-track {
 	  width: 100%;
-	  height: 16px;
+	  height: 24px;
 	  cursor: pointer;
 	  background: $monet-blue;
 	}
 
 	&::-moz-range-track {
 	  width: 100%;
-	  height: 16px;
+	  height: 24px;
 	  cursor: pointer;
 	  background: $monet-blue;
 	}
@@ -135,7 +159,7 @@ input[type=range] {
 	  cursor: pointer;
 	  background: transparent;
 	  border-color: transparent;
-	  border-width: 16px 0;
+	  border-width: 24px 0;
 	  color: transparent;
 	}
 
@@ -161,10 +185,38 @@ input[type=range] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 36px;
-	height: 36px;
-	border-radius: 18px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
 	background: $monet-gold;
 	position: absolute;
+	font-size: 36px;
+
+	i {
+		font-size: 32px;
+	}
+}
+
+.tooltip {
+	position: relative;
+	text-align: center;
+	border-radius: 12px;
+	color: $white;
+	background: $monet-blue;
+	display: inline-block;
+	padding: 12px 16px;
+	margin-bottom: 10px;
+
+	.arrow {
+		position: absolute;
+		bottom: -5px;
+		left: 20px;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid $monet-blue;
+	}
 }
 </style>
