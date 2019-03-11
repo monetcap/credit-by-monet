@@ -14,7 +14,7 @@
 					to 30-50%!</p>
 			</div>
 
-			<IncomeSlider v-model="sliderIncome" @mouseup="show = true"/>
+			<DebtSlider v-model="sliderDebt" @mouseup="show = true"/>
 
 		</div>
 
@@ -22,16 +22,16 @@
 </template>
 
 <script>
-import IncomeSlider from './slider-form/IncomeSlider.vue';
+import DebtSlider from './slider-form/DebtSlider.vue';
 import SliderForm from './slider-form/SliderForm.vue';
 export default {
 	name: "Hero",
-	components: { IncomeSlider, SliderForm },
+	components: { DebtSlider, SliderForm },
 	data: function() {
 		return {
 			show: false,
 			submitted: false,
-			sliderIncome: 0
+			sliderDebt: 0
 		}
 	}
 }
