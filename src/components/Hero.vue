@@ -5,19 +5,19 @@
 		<SliderForm :show.sync="show" :amount="sliderDebt"/>
 		<SubmittedModal :show.sync="submitted"/>
 
-		<div class="uk-card">
-			<div class="uk-card-body">
+		<vk-card>
+			<div class="uk-card-body uk-margin-bottom">
 			<!-- CTA text -->
 			<div class="hero-text">
 				<h1>How much credit do you need?</h1>
-				<p>Credit by Monet Capital can repair your credit score, resulting in
-					increased lines of credit.</p>
+				<p>Credit by Monet can repair your credit score, resulting in increased
+					lines of credit.</p>
 				</div>
 			</div>
 
 			<DebtSlider v-model="sliderDebt" @mouseup="show = true"/>
 
-		</div>
+		</vk-card>
 
 	</div>
 </template>
@@ -41,9 +41,14 @@ export default {
 <style lang="scss" scoped>
 .hero {
 	align-items: center;
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.85),
+    rgba(255, 255, 255, 0.65)
+		),
+		url('../assets/monet-bubble-bg.gif') fixed;
 	display: flex;
 	min-height: 100%;
-	margin-bottom: -100px;
+	margin: -100px 0;
 	text-align: center;
 
 	& > div {
@@ -54,5 +59,13 @@ export default {
 		font-size: 21px;
 	}
 
+}
+
+.uk-card {
+	background: rgba(white, .9);
+}
+
+.uk-card-body {
+	background: transparent;
 }
 </style>
