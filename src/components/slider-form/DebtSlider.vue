@@ -3,7 +3,7 @@
 	<form class="uk-container-small uk-margin-top uk-margin-auto">
 
 		<span id="sliderTooltip" class="tooltip" v-bind:style="{'left': `${tooltipOffset}px`}">
-			${{ value }}
+			{{ formattedAmount }}
 			<span class="arrow"></span>
 		</span>
 
@@ -53,8 +53,14 @@ export default {
 
 	computed: {
 
-		formattedValue: function() {
+		// Takes number from slider, adds some commas
+		formattedAmount: function() {
 
+			if (this.value == 0) {
+				return "$0";
+			}
+			
+			return `$${ Math.floor(this.value / 1000) },000`
 		}
 
 	}

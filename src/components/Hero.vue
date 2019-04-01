@@ -2,7 +2,7 @@
 <template>
 	<div class="hero">
 
-		<SliderForm :show.sync="show"/>
+		<SliderForm :show.sync="show" :amount="sliderDebt"/>
 		<SubmittedModal :show.sync="submitted"/>
 
 		<div class="uk-card">

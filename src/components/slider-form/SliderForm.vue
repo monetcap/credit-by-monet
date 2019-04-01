@@ -8,21 +8,21 @@
 			number, then we can make tab (n) show up first rather than tab 0 -->
 		<vk-tabs-vertical align="left" v-bind:active-tab="1">
 
-			<vk-tabs-item title="$45,000" disabled></vk-tabs-item>
+			<vk-tabs-item :title="formattedAmount" disabled></vk-tabs-item>
 
-			<vk-tabs-item v-bind:title="howSoonTitle" active>
-				<HowSoon amount="45,000" v-model="yearsFromNow" class="slider-content"/>
+			<vk-tabs-item :title="howSoonTitle" active>
+				<HowSoon :amount="formattedAmount" v-model="yearsFromNow" class="slider-content"/>
 			</vk-tabs-item>
 
-			<vk-tabs-item v-bind:title="creditCardsTitle">
+			<vk-tabs-item :title="creditCardsTitle">
 				<CardAccounts v-model="creditCards" class="slider-content"/>
 			</vk-tabs-item>
 
-			<vk-tabs-item v-bind:title="incomeTitle">
+			<vk-tabs-item :title="incomeTitle">
 				<AnnualIncome v-model="income" class="slider-content"/>
 			</vk-tabs-item>
 
-			<vk-tabs-item v-bind:title="industryTitle">
+			<vk-tabs-item :title="industryTitle">
 				<Industry v-model="industry" class="slider-content"/>
 			</vk-tabs-item>
 
@@ -51,7 +51,7 @@ export default {
 		Industry,
 		SliderContact
 	},
-	props: ['show'],
+	props: ['show', 'amount'],
 
 	data: function() {
 		return {
@@ -90,6 +90,14 @@ export default {
 			}
 
 			return "Credit Cards";
+
+		},
+
+		// Takes the amount entered in from the debt slider on the front page, and
+		// adds some commas
+		formattedAmount: function() {
+
+			return `$${ Math.floor(this.amount / 1000) },000`;
 
 		},
 
