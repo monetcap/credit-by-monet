@@ -14,7 +14,7 @@
 				</i>
 			</span>
 
-			<input type="range" min="1000" max="75000" step="1000"
+			<input type="range" min="25000" max="250000" step="1000"
 				:value="value"
 				@input="slide"
 				@mouseup="$emit('mouseup')"/>
@@ -59,7 +59,7 @@ export default {
 			if (this.value == 0) {
 				return "$0";
 			}
-			
+
 			return `$${ Math.floor(this.value / 1000) },000`
 		}
 
