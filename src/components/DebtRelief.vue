@@ -10,21 +10,22 @@
 
 			<vk-grid gutter="large" class="uk-child-width-expand@m">
 
-				<div class="uk-width-1-3@m debt-copy">
+				<div class="uk-width-2-5@m debt-copy">
 					<div>
 						<h2 class="uk-text-uppercase">Let's work together</h2>
 
-						<p>Credit by Monet Capital offers debt relief in various locaitons
-							nationwide.  Get in touch to see if we cover your county or state.</p>
+						<p>Credit by Monet Capital offers access to various types of
+							financial instruments ranging from credit cards to lines of credit
+							and many more. Get in touch to see if we cover your county or
+							state.</p>
 
-						<p>We can reduce or eliminate interest charges and lower your total
-							payments by up to 30%-50%.</p>
+						<p>Here is where your dreams become a reality.</p>
 					</div>
 				</div>
 
 				<div>
 					<img
-						src="../assets/monet-service-map.png"
+						src="../assets/monet-debt-relief-service-map.gif"
 						alt="National debt relief throughout the United States."
 					/>
 				</div>

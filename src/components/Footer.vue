@@ -5,9 +5,9 @@
 			<vk-grid class="uk-child-width-expand@m">
 
 				<div>
-					<p class="uk-text-lead">&copy; 2019 Monet Capital | 81 Willoughby St, Brooklyn, NY 11201 |
-						credit@monetcap.com <br />
-						Privacy Policy</p>
+					<p class="uk-text-lead">&copy; 2019 Monet Capital | 495 Flatbush Ave,
+						Brooklyn, NY 11225 | credit@monetcap.com</p>
+					<p>Privacy Policy</p>
 				</div>
 
 				<div class="uk-width-1-6@m">

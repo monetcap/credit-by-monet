@@ -5,13 +5,14 @@
 		<SliderForm :show.sync="show"/>
 		<SubmittedModal :show.sync="submitted"/>
 
-		<div>
-
+		<div class="uk-card">
+			<div class="uk-card-body">
 			<!-- CTA text -->
 			<div class="hero-text">
-				<h1>What is your total credit card debt?</h1>
-				<p>Credit by Monet Capital can reduce your total credit card payments by up
-					to 30-50%!</p>
+				<h1>How much credit do you need?</h1>
+				<p>Credit by Monet Capital can repair your credit score, resulting in
+					increased lines of credit.</p>
+				</div>
 			</div>
 
 			<DebtSlider v-model="sliderDebt" @mouseup="show = true"/>

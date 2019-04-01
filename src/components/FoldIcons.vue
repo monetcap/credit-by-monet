@@ -11,7 +11,7 @@
 					<div slot="media-top">
 						<img src="../assets/icon-lightning.png" />
 					</div>
-					<vk-card-title>Consolidate debt quickly</vk-card-title>
+					<vk-card-title>Boost your credit score quickly</vk-card-title>
 				</vk-card>
 
 				<vk-card type="blank">
@@ -25,14 +25,14 @@
 					<div slot="media-top">
 						<img src="../assets/icon-money-bag.png"/>
 					</div>
-					<vk-card-title>Save money for other things</vk-card-title>
+					<vk-card-title>Access higher lines of credit</vk-card-title>
 				</vk-card>
 
 				<vk-card type="blank">
 					<div slot="media-top">
 						<img src="../assets/icon-money-hand.png"/>
 					</div>
-					<vk-card-title>Provide ample support</vk-card-title>
+					<vk-card-title>Meet your goals sooner</vk-card-title>
 				</vk-card>
 
 			</vk-grid>
