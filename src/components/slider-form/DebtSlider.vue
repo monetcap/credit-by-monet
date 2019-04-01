@@ -37,7 +37,7 @@ export default {
 
 		slide: function(event) {
 
-			let percentage = ((event.target.value - 1000) / 74000);
+			let percentage = ((event.target.value - 1000) / 240000);
 			let compensation = (percentage * 36) - 2;
 
 			let tooltipWidth = document.getElementById('sliderTooltip').clientWidth;
