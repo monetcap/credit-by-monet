@@ -6,28 +6,38 @@
 
 		<!-- Not in the docs, but if we pass active-tab as a prop and specify a
 			number, then we can make tab (n) show up first rather than tab 0 -->
-		<vk-tabs-vertical align="left" v-bind:active-tab="1">
+		<vk-tabs-vertical align="left" v-bind:active-tab="tabIndex" @update:activeTab="tabIndex = $event">
 
 			<vk-tabs-item :title="formattedAmount" disabled></vk-tabs-item>
 
-			<vk-tabs-item :title="howSoonTitle" active>
-				<HowSoon :amount="formattedAmount" v-model="yearsFromNow" class="slider-content"/>
+			<vk-tabs-item :title="howSoonTitle">
+				<HowSoon class="slider-content"
+					v-model="yearsFromNow"
+					:amount="formattedAmount"
+					@input="tabIndex ++" />
 			</vk-tabs-item>
 
 			<vk-tabs-item :title="creditCardsTitle">
-				<CardAccounts v-model="creditCards" class="slider-content"/>
+				<CardAccounts class="slider-content"
+					v-model="creditCards"
+					@input="tabIndex ++" />
 			</vk-tabs-item>
 
 			<vk-tabs-item :title="incomeTitle">
-				<AnnualIncome v-model="income" class="slider-content"/>
+				<AnnualIncome class="slider-content"
+					v-model="income"
+					@input="tabIndex ++" />
 			</vk-tabs-item>
 
 			<vk-tabs-item :title="industryTitle">
-				<Industry v-model="industry" class="slider-content"/>
+				<Industry class="slider-content"
+					v-model="industry"
+					@input="tabIndex ++" />
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Contact">
-				<SliderContact class="slider-content" v-model="contact"/>
+				<SliderContact class="slider-content"
+					v-model="contact"/>
 			</vk-tabs-item>
 
 		</vk-tabs-vertical>
@@ -67,7 +77,8 @@ export default {
 				lastName: "",
 				email: "",
 				phone: ""
-			}
+			},
+			tabIndex: 1
 		}
 	},
 
@@ -133,15 +144,19 @@ export default {
 
 			return this.industry.value;
 
+		}
+
+	},
+
+	methods: {
+
+		// Handles submission event triggered by apply now button.
+		handleSubmit: function() {
+
 		},
 
-		methods: {
-
-			// Handles submission event triggered by apply now button.
-			handleSubmit: function() {
-
-			}
-
+		updateTab: function(event) {
+			debugger;
 		}
 
 	}
