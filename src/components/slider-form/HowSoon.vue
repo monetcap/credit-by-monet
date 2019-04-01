@@ -3,7 +3,7 @@
 
 	<div>
 		<h2 class="text-gold semi-bold uk-text-uppercase">How soon would you like
-			to pay off ${{ amount }}?</h2>
+			to pay off {{ amount }}?</h2>
 
 		<form class="uk-form-stacked">
 			<div class="uk-form-controls">
