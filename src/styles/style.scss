@@ -3,12 +3,14 @@
 @import 'colors';
 @import 'forms';
 @import 'typography';
+@import 'variables';
 
 // 2. Import component customizations.
 @import 'buttons';
 @import 'fold-icons';
 
 @import 'navbar';
+@import 'footer';
 
 body, html, #app {
 	height: 100%;
