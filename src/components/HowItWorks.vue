@@ -6,7 +6,7 @@
 
 			<h1 class="uk-text-center uk-margin-large">How it works</h1>
 
-			<vk-grid gutter="medium" class="uk-child-width-expand@m" matched>
+			<vk-grid gutter="medium" class="uk-child-width-1-2@m uk-margin-large-bottom" matched>
 
 				<!-- Seems bizarre, but we need to wrap cards in divs in order to make
 					gutters actually work -->
@@ -14,10 +14,11 @@
 					<vk-card type="blank">
 						<div class="foo">
 							<img src="../assets/circle-icon-comment.png"/>
-							<h4 class="uk-text-uppercase">Review Your Finances</h4>
+							<h4 class="uk-text-uppercase">We provide an initial estimate</h4>
 						</div>
-						<p class="uk-text-lead">Review your debts, budget and credit free of
-							charge with a certified Credit counselor.</p>
+						<p class="uk-text-lead">We'll analyze your credit file to determine
+						how much credit can be obtained for you and discuss the next steps
+					  for increasing your credit score.</p>
 					</vk-card>
 				</div>
 
@@ -25,10 +26,12 @@
 					<vk-card type="blank">
 						<div class="foo">
 							<img src="../assets/circle-icon-gesture.png"/>
-							<h4 class="uk-text-uppercase">We start when you are ready</h4>
+							<h4 class="uk-text-uppercase">Next, we'll build and repair your
+								credit</h4>
 						</div>
-						<p class="uk-text-lead">Once you are ready to go, we will contact
-							your creditors to negotiate lower interest rates.</p>
+						<p class="uk-text-lead">By removing derogatory marks from your
+						credit report and adding authorized user cards or tradelines to your
+					 	account, we work to put you in a better position to qualify.</p>
 					</vk-card>
 				</div>
 
@@ -36,17 +39,30 @@
 					<vk-card type="blank">
 						<div class="foo">
 							<img src="../assets/circle-icon-dollar.png"/>
-							<h4 class="uk-text-uppercase">Get out of debt faster</h4>
+							<h4 class="uk-text-uppercase">Finally, we obtain your credit</h4>
 						</div>
-						<p class="uk-text-lead">Debt-free as soon as 36 months by one monthly
-							payment to us.  We take care of the rest.</p>
+						<p class="uk-text-lead">A stronger credit profile means we can
+						focus on getting you access to financing. The amount of credit
+					 	available to you will depend on the stength of your profile.</p>
+					</vk-card>
+				</div>
+
+				<div>
+					<vk-card type="blank">
+						<div class="foo">
+							<img src="../assets/circle-icon-checklist.png"/>
+							<h4 class="uk-text-uppercase">A credit maintenance plan for you</h4>
+						</div>
+						<p class="uk-text-lead">We'll provide guidance and tips for maintaining
+						your newly obtained credit so that you can keep on building. This
+						way, you'll have access to credit if you ever need it again.</p>
 					</vk-card>
 				</div>
 
 			</vk-grid>
 
 		</div>
-		
+
 	</div>
 </template>
 
@@ -77,7 +93,7 @@ export default {
 		}
 
 		& img {
-			width: 50%;
+			width: 30%;
 			margin-right: 20px;
 		}
 	}
