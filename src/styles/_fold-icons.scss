@@ -4,4 +4,10 @@
 
 .uk-card-title {
   font-size: 16px;
+
+  .fold-icons & {
+    @media (max-width: $breakpoint-small) {
+      font-size: 14px;
+    }
+  }
 }

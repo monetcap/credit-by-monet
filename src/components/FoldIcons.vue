@@ -4,8 +4,7 @@
 <template>
 	<div class="fold-icons">
 		<div class="uk-container">
-			<vk-grid class="uk-margin-top uk-margin-bottom uk-child-width-1-2@s
-			uk-child-width-expand@m uk-text-center">
+			<vk-grid class="uk-margin-top uk-margin-bottom uk-child-width-1-2 uk-child-width-1-4@m uk-text-center">
 
 				<vk-card type="blank">
 					<div slot="media-top">

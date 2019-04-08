@@ -4,4 +4,8 @@
 
  .uk-logo {
    height: 4em;
+
+   @media (max-width: $breakpoint-small) {
+     height: 3.5em;
+   }
  }
