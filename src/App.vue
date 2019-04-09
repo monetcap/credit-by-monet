@@ -11,7 +11,7 @@
 
     <Testimonials />
 
-    <Partners />
+    <Benefits />
 
     <DebtRelief />
 
@@ -26,7 +26,7 @@ import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
 import HowItWorks from './components/HowItWorks.vue';
 import Navbar from './components/Navbar.vue';
-import Partners from './components/Partners.vue';
+import Benefits from './components/Benefits.vue';
 import Testimonials from './components/Testimonials.vue';
 export default {
   name: 'app',
@@ -37,7 +37,7 @@ export default {
     Hero,
     HowItWorks,
     Navbar,
-    Partners,
+    Benefits,
     Testimonials
   }
 }
