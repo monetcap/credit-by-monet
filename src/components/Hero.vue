@@ -48,7 +48,6 @@ export default {
 		url('../assets/monet-bubble-bg.gif') fixed;
 	display: flex;
 	min-height: 100%;
-	margin: -100px 0;
 	text-align: center;
 
 	& > div {
@@ -62,7 +61,7 @@ export default {
 }
 
 .uk-card {
-	background: rgba(white, .9);
+	background: rgba(white, .8);
 }
 
 .uk-card-body {

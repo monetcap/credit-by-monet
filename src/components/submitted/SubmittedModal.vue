@@ -6,8 +6,8 @@
 		<vk-modal-close @click="$emit('update:show', false)"/>
 		<h2 class="uk-text-uppercase">{{ title }}</h2>
 
-		<p class="uk-text-lead">Thank you for choosing Credit!  We will be in touch
-			within 24 hours.  We look forward to working with you!</p>
+		<p class="uk-text-lead">Thank you for choosing Credit by Monet!
+			We will be in touch within 24 hours.  We look forward to working with you!</p>
 
 	</vk-modal>
 </template>

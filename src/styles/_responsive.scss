@@ -1,0 +1,12 @@
+/**
+ * Move these into individual components later.
+ * * * * */
+ .hero {
+ @media (max-width: $breakpoint-small) {
+     margin: 0 0;
+ }
+
+ @media (min-width: $breakpoint-medium) {
+     margin: -100px 0;
+ }
+}
