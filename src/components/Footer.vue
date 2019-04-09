@@ -3,7 +3,7 @@
 	<div class="footer">
 		<div class="uk-container">
 			<div class="uk-text-center">
-		    <ul class="footer-detail uk-margin-medium-bottom">
+		    <ul class="footer-detail uk-padding-remove-left uk-margin-medium-bottom">
 		      <li>© 2019 Monet Capital</li>
 		      <li>495 Flatbush Ave, Brooklyn, NY 11225</li>
 		      <li>info@creditbymonet.com</li>
