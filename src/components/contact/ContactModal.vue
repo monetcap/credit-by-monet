@@ -47,7 +47,7 @@
 			<textarea class="uk-textarea" rows="8" placeholder="Message"/>
 
 			<vk-button type="primary" class="uk-align-right">
-				Partner With Us
+				Submit
 			</vk-button>
 
 		</form>

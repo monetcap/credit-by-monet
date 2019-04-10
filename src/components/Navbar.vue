@@ -22,9 +22,22 @@
 
 				<vk-navbar-nav slot="right">
 					<vk-navbar-item>
-						<vk-button type="secondary" @click="show = true">Contact Us</vk-button>
+						<vk-button class="uk-visible@m" type="secondary" @click="show = true">Contact Us</vk-button>
+						<a href="#" class="uk-hidden@m" @click="slide = true"><i class="material-icons text-blue">menu</i></a>
 					</vk-navbar-item>
 				</vk-navbar-nav>
+
+				<vk-offcanvas overlay mode="slide" :show.sync="slide">
+					<vk-offcanvas-close class="text-blue" @click="slide = false"></vk-offcanvas-close>
+					<img class="uk-width-small uk-align-center" src="../assets/logo.png"/>
+					<ul className="uk-nav uk-nav-primary uk-margin-top">
+            <li><a href="#section-partners" v-vk-scroll>Apply Now</a></li>
+            <li><a href="#section-how-it-works" v-vk-scroll>How It Works</a></li>
+            <li><a href="#section-about" v-vk-scroll>Testimonials</a></li>
+            <li><a href="#" @click="show = true">Contact us</a></li>
+          </ul>
+				</vk-offcanvas>
+
 
 			</vk-navbar>
 
@@ -41,7 +54,8 @@ export default {
 	components: { ContactModal },
 	data: function() {
 		return {
-			show: false
+			show: false,
+			slide: false
 		}
 	}
 }
