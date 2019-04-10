@@ -30,9 +30,12 @@
 				<vk-offcanvas overlay mode="slide" :show.sync="slide" :flipped="true">
 
 					<vk-offcanvas-close class="text-blue" @click="slide = false"></vk-offcanvas-close>
-					
-					<img class="uk-width-small uk-align-center" src="../assets/logo.png"/>
-					<ul className="uk-nav uk-nav-primary uk-margin-top">
+
+					<div class="img-container">
+						<img class="uk-width-small uk-align-center" src="../assets/logo.png"/>
+					</div>
+
+					<ul class="uk-nav uk-nav-primary">
             <li><a href="#section-partners" v-vk-scroll>Apply Now</a></li>
             <li><a href="#section-how-it-works" v-vk-scroll>How It Works</a></li>
             <li><a href="#section-about" v-vk-scroll>Testimonials</a></li>

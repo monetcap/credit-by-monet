@@ -19,4 +19,35 @@
 .uk-offcanvas-bar-flip {
   left: auto;
   right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: $monet-blue;
+
+
+  .img-container {
+    margin-top: -20px;
+    background-color: $white;
+    padding: 20px 0;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+
+  .uk-nav.uk-nav-primary {
+
+    li {
+      list-style: none;
+      font-weight: 700;
+      background-color: $monet-gold;
+      padding: 8px 20px;
+      border: 1px solid $white;
+
+      a {
+        font-size: 18px;
+        color: $monet-blue;
+      }
+    }
+
+  }
 }
