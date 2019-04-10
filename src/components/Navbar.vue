@@ -27,8 +27,10 @@
 					</vk-navbar-item>
 				</vk-navbar-nav>
 
-				<vk-offcanvas overlay mode="slide" :show.sync="slide">
+				<vk-offcanvas overlay mode="slide" :show.sync="slide" :flipped="true">
+
 					<vk-offcanvas-close class="text-blue" @click="slide = false"></vk-offcanvas-close>
+					
 					<img class="uk-width-small uk-align-center" src="../assets/logo.png"/>
 					<ul className="uk-nav uk-nav-primary uk-margin-top">
             <li><a href="#section-partners" v-vk-scroll>Apply Now</a></li>
@@ -36,6 +38,7 @@
             <li><a href="#section-about" v-vk-scroll>Testimonials</a></li>
             <li><a href="#" @click="show = true">Contact us</a></li>
           </ul>
+
 				</vk-offcanvas>
 
 
