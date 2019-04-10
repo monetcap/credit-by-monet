@@ -27,7 +27,7 @@
 					</vk-navbar-item>
 				</vk-navbar-nav>
 
-				<vk-offcanvas overlay mode="slide" :show.sync="slide" :flipped="true">
+				<vk-offcanvas :overlay.sync="slide" mode="slide" :show.sync="slide" :flipped="true">
 
 					<vk-offcanvas-close class="text-blue" @click="slide = false"></vk-offcanvas-close>
 
