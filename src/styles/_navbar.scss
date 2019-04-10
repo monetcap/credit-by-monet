@@ -16,13 +16,18 @@
    }
  }
 
+ .uk-offcanvas.uk-open {
+
+   .uk-offcanvas-bar-flip {
+    left: auto;
+    right: 0;
+   }
+ }
+
 .uk-offcanvas-bar-flip {
-  left: auto;
-  right: 0;
   padding-left: 0;
   padding-right: 0;
   background-color: $monet-blue;
-
 
   .img-container {
     margin-top: -20px;
