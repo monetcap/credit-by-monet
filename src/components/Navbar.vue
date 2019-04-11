@@ -36,10 +36,29 @@
 					</div>
 
 					<ul class="uk-nav uk-nav-primary">
-            <li><a href="#section-partners" v-vk-scroll>Apply Now</a></li>
-            <li><a href="#section-how-it-works" v-vk-scroll>How It Works</a></li>
-            <li><a href="#section-about" v-vk-scroll>Testimonials</a></li>
-            <li><a href="#" @click="show = true">Contact us</a></li>
+
+            <li>
+							<a href="#section-partners" v-vk-scroll
+								@click="slide = false"><span>Apply Now</span>
+							</a>
+						</li>
+
+            <li>
+							<a href="#section-how-it-works" v-vk-scroll
+								@click="slide = false"><span>How It Works</span>
+							</a>
+						</li>
+
+            <li>
+							<a href="#section-about" v-vk-scroll
+								@click="slide = false"><span>Testimonials</span>
+							</a>
+						</li>
+
+            <li>
+							<a href="#" @click="show = true"><span>Contact us</span></a>
+						</li>
+
           </ul>
 
 				</vk-offcanvas>
