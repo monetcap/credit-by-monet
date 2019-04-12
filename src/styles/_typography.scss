@@ -18,6 +18,10 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
 
 a {
 	color: $monet-blue;
+
+	&:hover {
+		color: $dark-grey;
+	}
 }
 
 .uk-text-lead {
@@ -48,6 +52,7 @@ em {
 	color: $monet-gold;
 }
 
+//TODO: Felt cute, might delete later.
 .price-fancy {
 	font-size: 1.5em;
 }
