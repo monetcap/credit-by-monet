@@ -5,7 +5,9 @@
 		<div class="uk-container">
 
 			<!-- Render this contact form if someone clicks the button -->
-			<ContactModal :show.sync="show" title="Get in touch with us"/>
+			<!--<ContactModal :show.sync="show" title="Get in touch with us"/>-->
+			<!-- Render this refund policy modal if someone clicks the button -->
+			<RefundPolicyModal :show.sync="show" title="Refund Policy"/>
 
 			<div>
 
@@ -35,7 +37,7 @@
 						</div>
 
 						<vk-button class="uk-width-1-1" size="large" type="primary" @click="show = true">
-							Get in touch with us
+							Click here for our refund policy
 						</vk-button>
 					</div>
 
@@ -64,10 +66,11 @@
 </template>
 
 <script>
-import ContactModal from './contact/ContactModal.vue';
+//import ContactModal from './contact/ContactModal.vue';
+import RefundPolicyModal from './modals/RefundPolicyModal.vue';
 export default {
 	name: "Benefits",
-	components: { ContactModal },
+	components: { RefundPolicyModal },
 	data: function() {
 		return {
 			show: false
