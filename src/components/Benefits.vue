@@ -24,7 +24,13 @@
 							abundance. We aim to provide more than just an improved credit
 							score.</p>
 
-							<p class="uk-text-lead">We look forward to working with you!</p>
+							<p class="uk-text-lead"><span class="semi-bold">Fees start as low as</span>
+								<span class="price-fancy uk-margin-small-left">$<span class="text-gold">100</span><sup>*</sup></span><br>
+							</p>
+
+							<p class="uk-text-lead">
+									<sub>If we don't deliver, <em>you don't pay</em>.</sub>
+							</p>
 						</div>
 
 						<vk-button class="uk-width-1-1" size="large" type="primary" @click="show = true">
@@ -43,12 +49,12 @@
 
 				</vk-grid>
 
-				<vk-grid gutter="large" class="uk-child-width-expand@m uk-text-center">
+				<!--<vk-grid gutter="large" class="uk-child-width-expand@m uk-text-center">
 					<h4><span class="semi-bold">Fees start as low as</span><br>
 						<span class="price-fancy">$<span class="text-gold">100</span><sup>*</sup></span>
 					</h4>
 					<h4 class="semi-bold">If we don't deliver, <em>you don't pay</em>!</h4>
-				</vk-grid>
+				</vk-grid>-->
 
 			</div>
 		</div>
