@@ -14,7 +14,7 @@
 		    </ul>
 				<ul class="footer-detail uk-padding-remove-left uk-margin-medium-bottom">
 					<li>© 2019 Credit by Monet</li>
-					<li><a href="#" @click="show = true"><span>Privacy Policy</span></a></li>
+					<li><a href="#" @click.prevent="show = true"><span>Privacy Policy</span></a></li>
 				</ul>
 		    <p class="footer-disclaimer">
 		      Monet Capital is a free, no obligation financial service, connecting
