@@ -43,6 +43,13 @@
 
 				</vk-grid>
 
+				<vk-grid gutter="large" class="uk-child-width-expand@m uk-text-center">
+					<h4><span class="semi-bold">Fees start as low as</span><br>
+						<span class="price-fancy">$<span class="text-gold">100</span><sup>*</sup></span>
+					</h4>
+					<h4 class="semi-bold">If we don't deliver, <em>you don't pay</em>!</h4>
+				</vk-grid>
+
 			</div>
 		</div>
 	</div>
