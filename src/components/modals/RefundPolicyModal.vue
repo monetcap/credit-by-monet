@@ -9,7 +9,7 @@
 			{{ title }}
 		</vk-modal-title>
 
-		<!-- Beginning of form proper -->
+		<!-- Beginning of policy content -->
 
 		<div>
       <p>
