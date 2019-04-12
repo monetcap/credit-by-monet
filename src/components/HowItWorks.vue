@@ -1,6 +1,6 @@
 <!-- Component for rendering the how it works section -->
 <template>
-	<div class="how-it-works">
+	<div id="section-how-it-works" class="how-it-works">
 
 		<div class="uk-container">
 

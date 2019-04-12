@@ -23,3 +23,5 @@ $breakpoint-xsmall-max:                         ($breakpoint-small - 1) !default
 $breakpoint-small-max:                          ($breakpoint-medium - 1) !default;
 $breakpoint-medium-max:                         ($breakpoint-large - 1) !default;
 $breakpoint-large-max:                          ($breakpoint-xlarge - 1) !default;
+
+$global-primary-background:                     $monet-blue;
