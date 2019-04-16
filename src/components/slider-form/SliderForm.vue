@@ -47,12 +47,17 @@
           <input class="uk-input uk-width-1-2@s" type="text" placeholder="Printed Name" />
           <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date" />
         </form>
+
+        <div>
+          <vk-button class="uk-width-1-1 submit">Submit</vk-button>
+        </div>
 			</vk-tabs-item>
 
 		</vk-tabs>
 
     <div class="uk-flex uk-flex-right uk-flex-middle">
-      <vk-button v-on:click="nextTab">Continue</vk-button>
+      <vk-button v-bind:class="{ 'uk-hidden': tabIndex===0 }" v-on:click="backTab">Go Back</vk-button>
+      <vk-button v-bind:class="{ 'uk-hidden': tabIndex===tabCeiling-1 }" v-on:click="nextTab">Continue</vk-button>
     </div>
 
 	</vk-modal>
@@ -71,10 +76,13 @@ export default {
 			}
 	},
 	methods: {
+    backTab: function() {
+			let { tabIndex } = this.$data;
+			(tabIndex === 0 ? null: this.$data.tabIndex--)
+		},
 		nextTab: function() {
-			this.$data.tabIndex++;
 			let { tabCeiling, tabIndex } = this.$data;
-			(tabIndex === tabCeiling ? this.$data.tabIndex = 0: null)
+			(tabIndex === tabCeiling ? null : this.$data.tabIndex++)
 		}
 	}
 }
@@ -82,7 +90,20 @@ export default {
 </script>
 
 <style lang="scss">
+@import 'src/styles/colors';
+
 .slider-form-modal {
 	ul.uk-tab { display: none; }
+
+  h4, h2 { color: $monet-gold; }
+
+  button.uk-button {
+    background-color: $monet-gold;
+    color: white;
+
+    &.submit {
+      background-color: $monet-blue;
+    }
+  }
 }
 </style>
