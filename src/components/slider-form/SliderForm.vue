@@ -11,29 +11,29 @@
         <h4 class="uk-margin-remove-top">Provide your details below to get started.</h4>
 
         <form class="uk-grid-small" uk-grid>
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Full Name" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date of Birth" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="SSN (Last 4 Digits)" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Email Address" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Street Address" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="City" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="State" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Zip Code" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Full Name" v-model="name" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date of Birth" v-model="dateOfBirth" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="SSN (Last 4 Digits)" v-model="lastFourOfSSN" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Email Address" v-model="emailAddress" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Street Address" v-model="streetAddress" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="City" v-model="city" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="State" v-model="state" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Zip Code" v-model="zipCode" />
         </form>
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Page2">
 				<h4>Consumer Credit File Rights (State & Federal)</h4>
-        <textarea class="uk-textarea uk-margin-small-bottom" disabled>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+        <textarea class="uk-textarea uk-margin-small-bottom" readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
         <label for="rights-checkbox">I have read and understand my rights.</label>
-        <input id="rights-checkbox" class="uk-checkbox uk-margin-small-left" type="checkbox" />
+        <input id="rights-checkbox" class="uk-checkbox uk-margin-small-left" type="checkbox" v-model="rightsCheckbox" />
 
         <hr />
 
         <h4 class="uk-margin-remove-top">E-Sign Consent and Disclosure</h4>
-        <textarea class="uk-textarea uk-margin-small-bottom" disabled>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+        <textarea class="uk-textarea uk-margin-small-bottom" readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
         <label for="esign-checkbox">I have read the disclosure and consent to the terms.</label>
-        <input id="esign-checkbox" class="uk-checkbox uk-margin-small-left" type="checkbox" />
+        <input id="esign-checkbox" class="uk-checkbox uk-margin-small-left" type="checkbox" v-model="esignCheckbox" />
 
 			</vk-tabs-item>
 
@@ -44,8 +44,8 @@
         <p>3. Disclosure Statement;</p>
 
         <form class="uk-grid-small" uk-grid>
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Printed Name" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Printed Name" v-model="printedName" />
+          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date" v-model="date" />
         </form>
 
         <div>
@@ -72,7 +72,19 @@ export default {
 	data: function() {
 			return {
 				tabIndex: 0,
-				tabCeiling: 3
+				tabCeiling: 3,
+        name: '',
+        dateOfBirth: '',
+        lastFourOfSSN: '',
+        emailAddress: '',
+        streetAddress: '',
+        city: '',
+        state: '',
+        zipCode: '',
+        rightsCheckbox: false,
+        esignCheckbox: false,
+        printedName: '',
+        date: ''
 			}
 	},
 	methods: {
@@ -83,7 +95,10 @@ export default {
 		nextTab: function() {
 			let { tabCeiling, tabIndex } = this.$data;
 			(tabIndex === tabCeiling ? null : this.$data.tabIndex++)
-		}
+		},
+    submit: function() {
+      // TODO: submit to google sheets
+    }
 	}
 }
 
