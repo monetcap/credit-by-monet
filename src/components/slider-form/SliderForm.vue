@@ -38,13 +38,12 @@
 			</vk-tabs-item>
 
 			<vk-tabs-item title="Page3">
-				<h2>By signing below, I acknowledge that I have received, read, and understand the:</h2>
+				<h2>By typing my name below, I acknowledge that I have received, read, and understand the:</h2>
         <p>1. Application and Consent;</p>
         <p>2. E-Sign Consent and Disclosure; and the</p>
         <p>3. Disclosure Statement;</p>
 
         <form class="uk-grid-small" uk-grid>
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Signature" />
           <input class="uk-input uk-width-1-2@s" type="text" placeholder="Printed Name" />
           <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date" />
         </form>
