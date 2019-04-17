@@ -7,52 +7,52 @@
 
 
 body {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4 {
-	color: $monet-blue;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+  color: $monet-blue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 a {
-	color: $monet-blue;
+  color: $monet-blue;
 
-	&:hover {
-		color: $dark-grey;
-	}
+  &:hover {
+    color: $dark-grey;
+  }
 }
 
 .uk-text-lead {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .semi-bold {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .text-gold {
-	color: $monet-gold;
+  color: $monet-gold;
 }
 
 .text-blue {
-	color: $monet-blue;
+  color: $monet-blue;
 }
 
 h4 {
-	.how-it-works & {
-		@media (max-width: $breakpoint-small) {
-			font-size: 18px;
-		}
-	}
+  .how-it-works & {
+    @media (max-width: $breakpoint-small) {
+      font-size: 18px;
+    }
+  }
 }
 
 em {
-	color: $monet-gold;
+  color: $monet-gold;
 }
 
 //TODO: Felt cute, might delete later.
 .price-fancy {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }

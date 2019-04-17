@@ -3,18 +3,18 @@
  * * * * */
 
 .uk-button {
-	margin: 10px 0;
-	border-radius: 4px;
+  margin: 10px 0;
+  border-radius: 4px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-	font-weight: 500;
+  font-weight: 500;
   text-transform: none;
 
-	&.uk-button-primary {
-		background-color: $monet-gold;
-	}
+  &.uk-button-primary {
+    background-color: $monet-gold;
+  }
 
-	&.uk-button-secondary {
-		background-color: $monet-blue;
-	}
+  &.uk-button-secondary {
+    background-color: $monet-blue;
+  }
 }

@@ -9,7 +9,6 @@
 
       <!-- Beginning of policy content -->
       <div>
-         <p>
          <h3>Your privacy is critically important to us.</h3>
          Credit by Monet is located at:<br/>
          <address>
@@ -41,7 +40,6 @@
          <p>Although most changes are likely to be minor, Credit by Monet may change its Privacy Policy from time to time, and in Credit by Monet’s sole discretion. Credit by Monet encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
          <h2>Contact Information</h2>
          <p>If you have any questions about this Privacy Policy, please contact us via <a href="mailto:info@creditbymonet.com">email</a>.</p>
-         </p>
       </div>
       <!-- End policy content -->
 
@@ -60,11 +58,11 @@
 
 
 
-	h2 {
-		color: $monet-gold;
+  h2 {
+    color: $monet-gold;
     font-weight: 500;
     font-size: 1.5em;
-	}
+  }
 
 
 </style>
