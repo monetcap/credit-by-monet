@@ -11,13 +11,23 @@
         <h4 class="uk-margin-remove-top">Provide your details below to get started.</h4>
 
         <form class="uk-grid-small" uk-grid>
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Full Name" v-model="name" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Date of Birth" v-model="dateOfBirth" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="SSN (Last 4 Digits)" v-model="lastFourOfSSN" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Email Address" v-model="emailAddress" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="Street Address" v-model="streetAddress" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="City" v-model="city" />
-          <input class="uk-input uk-width-1-2@s" type="text" placeholder="State" v-model="state" />
+          <input class="uk-input uk-width-1-2@s" id="name" name="name" type="text" placeholder="Full Name" v-model="name" />
+          <input class="uk-input uk-width-1-2@s" id="date-of-birth" name="date-of-birth" type="date" placeholder="Date of Birth" v-model="dateOfBirth" />
+          <input class="uk-input uk-width-1-2@s" id="last-four-of-ssn" name="last-four-of-ssn" type="text" placeholder="SSN (Last 4 Digits)" v-model="lastFourOfSSN" />
+          <input class="uk-input uk-width-1-2@s" id="email" name="email" type="email" placeholder="Email Address" v-model="emailAddress" />
+          <select class="uk-select uk-width-1-2@s" id="state" name="state" v-model="state">
+            <option selected disabled hidden>State</option>
+            <option v-for="state in states" :key="state" :value="state" >
+              {{ state }}
+            </option>
+          </select>
+          <select class="uk-select uk-width-1-2@s" id="city" name="city" v-model="city" :disabled="state=='State'">
+            <option selected disabled hidden>City</option>
+            <option v-for="city in getCityFromSelectedState" :key="city" :value="city" >
+              {{ city }}
+            </option>
+          </select>
+          <input class="uk-input uk-width-1-2@s" id="street-address" name="street-address" type="text" placeholder="Street Address" v-model="streetAddress" />
           <input class="uk-input uk-width-1-2@s" type="text" placeholder="Zip Code" v-model="zipCode" />
         </form>
 			</vk-tabs-item>
@@ -73,20 +83,32 @@ export default {
 			return {
 				tabIndex: 0,
 				tabCeiling: 3,
-        name: '',
-        dateOfBirth: '',
-        lastFourOfSSN: '',
-        emailAddress: '',
-        streetAddress: '',
-        city: '',
-        state: '',
-        zipCode: '',
+        name: null,
+        dateOfBirth: null,
+        lastFourOfSSN: null,
+        emailAddress: null,
+        streetAddress: null,
+        city: "City",
+        state: "State",
+        zipCode: null,
         rightsCheckbox: false,
         esignCheckbox: false,
-        printedName: '',
-        date: ''
+        printedName: null,
+        date: null,
+        states: [],
+        cities: []
 			}
 	},
+  created: function() {
+    let statesAndCities = require('./stateandcities.json');
+    this.states = Object.keys(statesAndCities);
+  },
+  computed: {
+    getCityFromSelectedState: function() {
+      let statesAndCities = require('./stateandcities.json');
+      return statesAndCities[this.state];
+    }
+  },
 	methods: {
     backTab: function() {
 			let { tabIndex } = this.$data;
