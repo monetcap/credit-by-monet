@@ -30,7 +30,7 @@
                 credit</h4>
             </div>
             <p class="uk-text-lead">By removing derogatory marks from your
-            credit report and adding authorized user cards or tradelines to your
+            credit report and adding authorized user cards to your
              account, we work to put you in a better position to qualify.</p>
           </vk-card>
         </div>

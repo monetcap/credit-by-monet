@@ -16,11 +16,10 @@
           <li>© 2019 Credit by Monet</li>
           <li><a href="#" @click="show = true"><span>Privacy Policy</span></a></li>
         </ul>
-        <p class="footer-disclaimer">
-          Monet Capital is a free, no obligation financial service, connecting
-          prospective borrowers with prospective lenders for business funding.
+        <!--<p class="footer-disclaimer">
+          Uncomment and use this if you need to add fine print.
           <br>
-        </p>
+        </p>-->
       </div>
     </div>
   </div>
