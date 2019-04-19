@@ -38,7 +38,7 @@
           <ul class="uk-nav uk-nav-primary">
 
             <li>
-              <a href="#section-partners" v-vk-scroll
+              <a href="#" v-vk-scroll
                 @click="slide = false"><span>Apply Now</span>
               </a>
             </li>
