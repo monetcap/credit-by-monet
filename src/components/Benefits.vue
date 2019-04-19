@@ -37,7 +37,7 @@
             </div>
 
             <vk-button class="uk-width-1-1" size="large" type="primary" @click="show = true">
-              Click here for our refund policy
+              Read our refund policy
             </vk-button>
           </div>
 

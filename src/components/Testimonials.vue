@@ -1,6 +1,6 @@
 <!-- Testimonials section -->
 <template>
-  <div class="testimonials">
+  <div id="section-testimonials" class="testimonials">
 
     <div class="uk-container">
       <h2 class="uk-h1 uk-text-center uk-margin-large">Testimonials</h2>

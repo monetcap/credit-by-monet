@@ -50,7 +50,7 @@
             </li>
 
             <li>
-              <a href="#section-about" v-vk-scroll
+              <a href="#section-testimonials" v-vk-scroll
                 @click="slide = false"><span>Testimonials</span>
               </a>
             </li>
