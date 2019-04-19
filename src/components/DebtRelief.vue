@@ -14,8 +14,8 @@
           <div>
             <h2 class="uk-text-uppercase">Let's work together</h2>
 
-            <p>Credit by Monet Capital offers access to various types of
-              financial instruments so that you can repair and rebuild for a
+            <p>Credit by Monet offers access to various types of
+              financial instruments so that you can repair your credit and rebuild for a
               fresh start.
               Get in touch to see if we cover your county or
               state.</p>

@@ -13,8 +13,8 @@
         <vk-navbar-nav>
 
           <a href="#app" v-vk-scroll>
-            <vk-navbar-logo>
-                <img src="../assets/logo.png"/>
+            <vk-navbar-logo class="uk-margin-small-left">
+                <img src="../assets/credit-by-monet-logo.png"/>
             </vk-navbar-logo>
           </a>
 
@@ -32,7 +32,7 @@
           <vk-offcanvas-close class="text-blue" @click="slide = false"></vk-offcanvas-close>
 
           <div class="img-container">
-            <img class="uk-width-small uk-align-center" src="../assets/logo.png"/>
+            <img class="uk-width-small uk-align-center" src="../assets/credit-by-monet-logo.png"/>
           </div>
 
           <ul class="uk-nav uk-nav-primary">

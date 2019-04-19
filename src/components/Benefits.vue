@@ -19,7 +19,7 @@
             <div class="good-team uk-padding">
               <h2 class="uk-text-uppercase uk-margin-top">Why Credit by Monet?</h2>
 
-              <p class="uk-text-lead">Credit by Monet Capital is able to negotiate
+              <p class="uk-text-lead">Credit by Monet is able to negotiate
               lower interest rates than our competitors.</p>
 
               <p class="uk-text-lead">Creating financial freedom means creating
