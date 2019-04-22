@@ -25,7 +25,7 @@
 
         <vk-tabs-item title="Page2">
           <h4>Consumer Credit File Rights (State & Federal)</h4>
-          <div style="overflow-y: scroll; height: 8em;"class="uk-textarea uk-margin-small-bottom">
+          <div style="overflow-y: scroll; height: 8em;" class="uk-textarea uk-margin-small-bottom">
             <p>You have a right to dispute inaccurate information in your credit report by contacting the credit bureau directly. However, neither you nor any ‘credit repair’ company or credit repair organization has the right to have accurate, current, and verifiable information removed from your credit report. The credit bureau must remove accurate, negative information from your report only if it is over 7 years old.
             Bankruptcy information can be reported for 10 years.</p>
             <p>You have a right to obtain a copy of your credit report from a credit bureau. You may be charged a reasonable fee. There is no fee, however, if you have been turned down for credit, employment, insurance, or a rental dwelling because of information in your credit report within the
@@ -47,7 +47,7 @@
           <hr />
 
           <h4 class="uk-margin-remove-top">E-Sign Consent and Disclosure</h4>
-          <div style="overflow-y: scroll; height: 8em;"class="uk-textarea uk-margin-small-bottom">
+          <div style="overflow-y: scroll; height: 8em;" class="uk-textarea uk-margin-small-bottom">
             <p>
               <b>Please carefully review this E-Sign Consent and Disclosure Form in order to use your electronic signa- ture and receive all
               communications electronically. Be advised that your consent is optional.</b>

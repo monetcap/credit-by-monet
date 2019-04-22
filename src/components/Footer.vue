@@ -5,6 +5,7 @@
 
       <!-- Render this privacy policy modal if someone clicks the button -->
       <PrivacyPolicyModal :show.sync="show" title="Privacy Policy"/>
+      <TermsConditionsModal :show.sync="showterms" title="Terms and Conditions"/>
 
       <div class="uk-text-center">
         <ul class="footer-detail uk-padding-remove-left">
@@ -15,6 +16,7 @@
         <ul class="footer-detail uk-padding-remove-left uk-margin-medium-bottom">
           <li>© 2019 Credit by Monet</li>
           <li><a href="#" @click="show = true"><span>Privacy Policy</span></a></li>
+          <li><a href="#" @click="showterms = true"><span>Terms and Conditions</span></a></li>
         </ul>
         <!--<p class="footer-disclaimer">
           Uncomment and use this if you need to add fine print.
@@ -27,12 +29,14 @@
 
 <script>
 import PrivacyPolicyModal from './modals/PrivacyPolicyModal.vue';
+import TermsConditionsModal from './modals/TermsConditionsModal.vue';
 export default {
   name: "Footer",
-  components: { PrivacyPolicyModal },
+  components: { PrivacyPolicyModal, TermsConditionsModal },
   data: function() {
     return {
-      show: false
+      show: false,
+      showterms: false
     }
   }
 }
