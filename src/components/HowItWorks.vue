@@ -17,7 +17,7 @@
               <h4 class="uk-text-uppercase">We provide an initial estimate</h4>
             </div>
             <p class="uk-text-lead">We'll analyze your credit file to determine
-            how much credit can be obtained for you and discuss the next steps
+            how much credit repair you require and discuss the next steps
             for increasing your credit score.</p>
           </vk-card>
         </div>
@@ -30,8 +30,8 @@
                 credit</h4>
             </div>
             <p class="uk-text-lead">By removing derogatory marks from your
-            credit report and adding authorized user cards to your
-             account, we work to put you in a better position to qualify.</p>
+            credit report and creating a personalized plan for building new credit,
+            we work to put you in a better position to qualify.</p>
           </vk-card>
         </div>
 
@@ -39,10 +39,10 @@
           <vk-card type="blank">
             <div class="foo">
               <img src="../assets/circle-icon-dollar.png"/>
-              <h4 class="uk-text-uppercase">Finally, we obtain your credit</h4>
+              <h4 class="uk-text-uppercase">Finally, you can obtain credit</h4>
             </div>
-            <p class="uk-text-lead">A stronger credit profile means we can
-            focus on getting you access to financing. The amount of credit
+            <p class="uk-text-lead">A stronger credit profile means you can
+              focus on achieving your financing goals. The amount of credit
              available to you will depend on the stength of your profile.</p>
           </vk-card>
         </div>
@@ -54,7 +54,7 @@
               <h4 class="uk-text-uppercase">A credit maintenance plan for you</h4>
             </div>
             <p class="uk-text-lead">We'll provide guidance and tips for maintaining
-            your newly obtained credit so that you can keep on building. This
+            your newly repaired credit so that you can keep on building. This
             way, you'll have access to credit if you ever need it again.</p>
           </vk-card>
         </div>

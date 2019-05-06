@@ -24,7 +24,7 @@
           <div slot="media-top">
             <img src="../assets/icon-money-bag.png"/>
           </div>
-          <vk-card-title>Access higher lines of credit</vk-card-title>
+          <vk-card-title>Save towards your goals</vk-card-title>
         </vk-card>
 
         <vk-card type="blank">

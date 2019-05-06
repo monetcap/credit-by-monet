@@ -10,8 +10,8 @@
       <!-- CTA text -->
       <div class="hero-text">
         <h1>How much credit do you need?</h1>
-        <p>Credit by Monet can repair your credit score, resulting in increased
-          lines of credit.</p>
+        <p>Credit by Monet can repair your credit score, helping you secure
+        your financial future.</p>
         </div>
       </div>
 

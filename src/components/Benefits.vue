@@ -46,7 +46,7 @@
             <img
               class="uk-position-relative uk-position-center uk-width-large"
               src="../assets/monet-partners-graphic.png"
-              alt="Partner with us and maximize your profits."
+              alt="Partner with us and meet your financial goals."
             />
           </div>
 

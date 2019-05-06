@@ -19,7 +19,7 @@
             </i>
 
             <h4 class="uk-text-uppercase">I should have done this sooner!</h4>
-            <p class="uk-text-lead">I was struggling to make minimum payments to get by.  Credit
+            <p class="uk-text-lead">I was struggling to make minimum payments to get by. Credit by Monet
               really saved me by stopping interest and late fees!</p>
             <p class="uk-text-lead">Rosemary T.</p>
           </vk-card>
@@ -33,8 +33,8 @@
             </i>
 
             <h4 class="uk-text-uppercase">Excellent service</h4>
-            <p class="uk-text-lead">It's embarassing to seek financial assistance.  I wish there was
-              an easier way to list my debts.  Service was amazing.</p>
+            <p class="uk-text-lead">It's embarassing to seek financial assistance. I wish there was
+              an easier way to list my debts. Service was amazing.</p>
             <p class="uk-text-lead">Ethan M.</p>
           </vk-card>
         </div>
@@ -47,8 +47,8 @@
             </i>
 
             <h4 class="uk-text-uppercase">No hassles, no worries, just amazing</h4>
-            <p class="uk-text-lead">I'm pretty disorganized, so having Credit
-              manage my debt was a game-changer.  I finally feel in control of
+            <p class="uk-text-lead">I'm pretty disorganized, so having Credit by Monet
+              manage my debt was a game-changer. I finally feel in control of
               my life again!</p>
             <p class="uk-text-lead">Jessica P.</p>
           </vk-card>
