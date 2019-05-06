@@ -9,7 +9,7 @@
       <vk-tabs :active-tab="tabIndex" >
 
         <vk-tabs-item class="uk-text-center" title="Page1">
-          <h2>We'll help you access ${{ amount }}.</h2>
+          <!--<h2>We'll help you access ${{ amount }}.</h2>-->
           <h4 class="uk-margin-remove-top">Provide your details below to get started.</h4>
 
           <input class="uk-input uk-width-1-2@s" id="name" name="name" type="text" placeholder="Full Name" v-model="name" />
