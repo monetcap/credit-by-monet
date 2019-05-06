@@ -14,7 +14,7 @@
         </i>
       </span>
 
-      <input type="range" min="25000" max="250000" step="1000"
+      <input type="range" min="300" max="670" step="1"
         :value="value"
         @input="slide"
         @mouseup="$emit('mouseup')"/>
@@ -37,7 +37,7 @@ export default {
 
     slide: function(event) {
 
-      let percentage = ((event.target.value - 1000) / 240000);
+      let percentage = ((event.target.value - 1) / 660);
       let compensation = (percentage * 36) - 2;
 
       let tooltipWidth = document.getElementById('sliderTooltip').clientWidth;
@@ -57,10 +57,10 @@ export default {
     formattedAmount: function() {
 
       if (this.value == 0) {
-        return "$0";
+        return "0";
       }
 
-      return `$${ Math.floor(this.value / 1000) },000`
+      return `${ Math.floor(this.value / 1) }`
     }
 
   }

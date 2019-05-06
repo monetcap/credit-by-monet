@@ -9,7 +9,7 @@
       <div class="uk-card-body uk-margin-bottom">
       <!-- CTA text -->
       <div class="hero-text">
-        <h1>How much credit do you need?</h1>
+        <h1>Do you know your current credit score?</h1>
         <p>Credit by Monet can repair your credit score, helping you secure
         your financial future.</p>
         </div>
