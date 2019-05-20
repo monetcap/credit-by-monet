@@ -9,7 +9,7 @@
 
     <HowItWorks />
 
-    <Testimonials />
+<!--    <Testimonials /> -->
 
     <Benefits />
 
