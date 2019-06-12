@@ -14,7 +14,7 @@
         </i>
       </span>
 
-      <input type="range" min="300" max="670" step="1"
+      <input type="range" min="300" max="800" step="1"
         :value="value"
         @input="slide"
         @mouseup="$emit('mouseup')"/>

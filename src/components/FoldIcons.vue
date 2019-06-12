@@ -10,7 +10,7 @@
           <div slot="media-top">
             <img src="../assets/icon-lightning.png" />
           </div>
-          <vk-card-title>Boost your credit score quickly</vk-card-title>
+          <vk-card-title>Improve your credit score</vk-card-title>
         </vk-card>
 
         <vk-card type="blank">

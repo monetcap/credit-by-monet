@@ -11,6 +11,7 @@
         <ul class="footer-detail uk-padding-remove-left">
           <li>495 Flatbush Ave, Brooklyn, NY 11225</li>
           <li>info@creditbymonet.com</li>
+          <li>+1 (800) 281-0606</li>
          <!-- <li><img src="../assets/BBB-Logo.png" class="uk-width-small" alt="BBB Accredited" /></li> -->
         </ul>
         <ul class="footer-detail uk-padding-remove-left uk-margin-medium-bottom">

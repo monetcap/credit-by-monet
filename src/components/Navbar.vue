@@ -22,7 +22,8 @@
 
         <vk-navbar-nav slot="right">
           <vk-navbar-item>
-            <vk-button class="uk-visible@m" type="secondary" @click="show = true">Contact Us</vk-button>
+            <!--<vk-button class="uk-visible@m" type="secondary" @click="show = true">Contact Us</vk-button>-->
+            <a href="tel:18002810606"><vk-button class="uk-visible@m" type="secondary">+1 (800) 281-0606</vk-button></a>
             <a href="#" class="uk-hidden@m" @click="slide = true"><i class="material-icons text-blue">menu</i></a>
           </vk-navbar-item>
         </vk-navbar-nav>
@@ -56,7 +57,9 @@
             </li>
 
             <li>
-              <a href="#" @click="show = true"><span>Contact us</span></a>
+              <!--<a href="#" @click="show = true"><span>Contact us</span></a>-->
+              <a href="tel:18002810606"><span>Call now</span></a>
+
             </li>
 
           </ul>

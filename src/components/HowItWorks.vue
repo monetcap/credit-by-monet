@@ -29,9 +29,9 @@
               <h4 class="uk-text-uppercase">Next, we'll build and repair your
                 credit</h4>
             </div>
-            <p class="uk-text-lead">By removing derogatory marks from your
-            credit report and creating a personalized plan for building new credit,
-            we work to put you in a better position to qualify.</p>
+            <p class="uk-text-lead">We assess your credit report to idenitify
+              any derogatory remarks that we can remove and create a personalized
+              plan for building new credit.</p>
           </vk-card>
         </div>
 
