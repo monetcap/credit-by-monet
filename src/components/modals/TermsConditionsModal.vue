@@ -8,9 +8,9 @@
       <!-- Beginning of Terms and Conditions -->
       <div>
         <h2>Welcome to Credit by Monet</h2>
-        <p>These terms and conditions outline the rules and regulations for the use of Credit by Monet's Website.</p> <br />
-        <span style="text-transform: capitalize;"> Credit by Monet</span> is located at:<br />
-        <address>495 Flatbush Ave Brooklyn <br />11225 - New York , United States<br />
+        <p>These terms and conditions outline the rules and regulations for the use of Credit by Monet's Website.</p>
+        <span style="text-transform: capitalize;"> Credit by Monet</span> is located at:
+        <address>495 Flatbush Ave<br />Brooklyn, New York 11225,<br />United States<br />
         </address>
         <p>By accessing this website we assume you accept these terms and conditions in full. Do not continue to use Credit by Monet's website
         if you do not accept all of the terms and conditions stated on this page.</p>
@@ -23,7 +23,15 @@
         of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect
         of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law
         of United States. Any use of the above terminology or other words in the singular, plural,
-        capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p><h2>Cookies</h2>
+        capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+        <h2>Cancellation Rights</h2>
+        <p>You may cancel your contract, without any penalty or obligation, at any time before midnight of the 3rd day which begins after the date
+          the contract is signed by client.</p>
+        <p>To cancel your contract, mail or deliver a signed and dated copy of this cancellation notice, or any other written notice, to:
+          <address>495 Flatbush Ave<br />Brooklyn, New York 11225,<br />United States<br />
+          </address></p>
+
+        <h2>Cookies</h2>
         <p>We employ the use of cookies. By using Credit by Monet's website you consent to the use of cookies
         in accordance with Credit by Monet’s privacy policy.</p><p>Most of the modern day interactive web sites
         use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site
