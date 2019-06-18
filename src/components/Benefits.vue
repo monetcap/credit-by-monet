@@ -30,7 +30,6 @@
 
               <p class="uk-text-lead"><span class="semi-bold">Fees start as low as</span>
                 <span class="price-fancy uk-margin-small-left">$<span class="text-gold">100</span><sup>*</sup></span><br>
-                <sub>(and if we don't deliver, <i>you don't pay</i>.)</sub>
               </p>
 
               <p class="uk-text-lead">

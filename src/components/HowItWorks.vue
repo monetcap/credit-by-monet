@@ -30,8 +30,8 @@
                 credit</h4>
             </div>
             <p class="uk-text-lead">We assess your credit report to idenitify
-              any derogatory remarks that we can remove and create a personalized
-              plan for building new credit.</p>
+              any true derogatory remarks for potential removal and create a
+              personalized plan for building new credit.</p>
           </vk-card>
         </div>
 
@@ -41,9 +41,10 @@
               <img src="../assets/circle-icon-dollar.png"/>
               <h4 class="uk-text-uppercase">Finally, you can obtain credit</h4>
             </div>
-            <p class="uk-text-lead">A stronger credit profile means you can
-              focus on achieving your financing goals. The amount of credit
-             available to you will depend on the stength of your profile.</p>
+            <p class="uk-text-lead">By creating a plan to improve your credit
+              score, you can focus on achieving your financing goals. The type
+              of credit available to you is based on the health of your credit
+              score.</p>
           </vk-card>
         </div>
 

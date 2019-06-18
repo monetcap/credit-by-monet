@@ -31,22 +31,6 @@
           <address>495 Flatbush Ave<br />Brooklyn, New York 11225,<br />United States<br />
           </address></p>
 
-        <h2>Cookies</h2>
-        <p>We employ the use of cookies. By using Credit by Monet's website you consent to the use of cookies
-        in accordance with Credit by Monet’s privacy policy.</p><p>Most of the modern day interactive web sites
-        use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site
-        to enable the functionality of this area and ease of use for those people visiting. Some of our
-        affiliate / advertising partners may also use cookies.</p><h2>License</h2>
-        <p>Unless otherwise stated, Credit by Monet and/or it’s licensors own the intellectual property rights for
-        all material on Credit by Monet. All intellectual property rights are reserved. You may view and/or print
-        pages from http://creditbymonet.com for your own personal use subject to restrictions set in these terms and conditions.</p>
-        <p>You must not:</p>
-        <ol>
-          <li>Republish material from http://creditbymonet.com</li>
-          <li>Sell, rent or sub-license material from http://creditbymonet.com</li>
-          <li>Reproduce, duplicate or copy material from http://creditbymonet.com</li>
-        </ol>
-        <p>Redistribute content from Credit by Monet (unless content is specifically made for redistribution).</p>
       <h2>Hyperlinking to our Content</h2>
         <ol>
           <li>The following organizations may link to our Web site without prior written approval:
