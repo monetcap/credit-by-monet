@@ -8,24 +8,23 @@ creditbymonet.com<template>
       <!-- Beginning of Terms and Conditions -->
       <div>
         <h2>Welcome to Credit by Monet</h2>
-
         <p>These terms and conditions outline the rules and regulations for the use of Credit by Monet's Website.</p>
-
-        <p>BY USING CREDIT BY MONET’S WEBSITE, ENGAGING CREDIT BY MONET’S SERVICES, AND/OR
-        REQUESTING THAT CREDIT BY MONET CONTACT YOU ABOUT ITS CREDIT REPAIR SERVICES, YOU AGREE
-        TO ARBITRATE ALL CLAIMS BETWEEN YOU AND CREDIT BY MONET ON AN INDIVIDUAL BASIS ONLY AND
-        NOT AS A PART OF ANY CLASS. A “CLAIM” IS ANY CASE, CONTROVERSY, DISPUTE, TORT, DISAGREEMENT,
-        LAWSUIT, LEGAL ACTION, OR CLAIM NOW OR HEREAFTER PENDING BETWEEN YOU AND CREDIT BY
-        MONET, INCLUDING BUT NOT LIMITED TO ANY ALLEGED STATE OR FEDERAL STATUTORY VIOLATION, OR
-        ANY DISPUTE OVER THE INTERPRETATION OF THE WEBSITE TERMS OR THE ARBITRABILITY OF ANY
-        CLAIM PURSUANT TO THE WEBSITE TERMS. THIS AGREEMENT TO ARBITRATE GOVERNS ALL PAST,
-        CURRENT AND PROSPECTIVE INTERACTIONS WITH CREDIT BY MONET. YOU AGREE THAT YOU ARE
-        WAIVING ALL RIGHTS TO: (A) A TRIAL BY JURY; (B) PARTICIPATE IN A CLASS ACTION LAW SUIT OR CLASS
-        ACTION ARBITRATION; AND (C) BRING AN ACTION AGAINST CREDIT BY MONET IN A COURT OF LAW.
-        YOU MAY INDIVIDUALLY ARBITRATE ANY CLAIM AGAINST CREDIT BY MONET IN ANY JURISDICTION IN
-        THE UNITED STATES. CREDIT BY MONET WILL REIMBURSE YOU UP TO $300 OF YOUR ARBITRATION
-        FILING FEE. THE RULES OF THE AMERICAN ARBITRATION ASSOCIATION THEN IN FORCE SHALL GOVERN
-        THE ARBITRATION (provided, however, that the terms of the Website Terms shall control over any
+        <h2>Introduction</h2>
+        <p>By using Credit by Monet’s website, engaging Credit by Monet’s services, and/or
+        requesting that Credit by Monet contact you about its credit repair services, you agree
+        to arbitrate all claims between you and Credit by Monet on an individual basis only and
+        not as a part of any class. A “claim” is any case, controversy, dispute, tort, disagreement,
+        lawsuit, legal action, or claim now or hereafter pending between you and credit by
+        monet, including but not limited to any alleged state or federal statutory violation, or
+        any dispute over the interpretation of the website terms or the arbitrability of any
+        claim pursuant to the website terms. This agreement to arbitrate governs all past,
+        current and prospective interactions with Credit by Monet. You agree that you are
+        waiving all rights to: (a) a trial by jury; (b) participate in a class action law suit or class
+        action arbitration; and (c) bring an action against Credit by Monet in a court of law.
+        you may individually arbitrate any claim against Credit by Monet in any jurisdiction in
+        the united states. Credit by Monet will reimburse you up to $300 of your arbitration
+        filing fee. The rules of the american arbitration association then in force shall govern
+        the arbitration (provided, however, that the terms of the Website Terms shall control over any
         inconsistency between the Rules of the American Arbitration Association and the Website Terms). The
         arbitrator shall have authority to interpret the Website Terms, including but not limited to the authority
         to decide whether any claim is arbitrable under the Website Terms and to decide issues related to the
@@ -35,9 +34,9 @@ creditbymonet.com<template>
         remainder of the Website Terms is governed by the laws of the state of New York, as provided in Section
         19 below.<p>
 
-        <p>BY USING THE WEBSITE, ENGAGING CREDIT BY MONET’S SERVICES, AND/OR REQUESTING THAT CREDIT
-        BY MONET CONTACT YOU ABOUT ITS CREDIT REPAIR SERVICES, YOU SIGNIFY YOUR AGREEMENT TO THE
-        WEBSITE TERMS.</p>
+        <p>By using the website, engaging Credit by Monet’s services, and/or requesting that credit
+        by monet contact you about its credit repair services, you signify your agreement to the
+        website terms.</p>
 
         <p>This Website Terms of Use Agreement (“Website Terms”) is between you and Credit by Monet, its past,
         present, or future parents, subsidiaries, affiliates, predecessors, assignees, successors, and their
@@ -54,7 +53,7 @@ creditbymonet.com<template>
         you may not use the Website. We may modify the Website Terms at any time.
         Your continued use of the Website, use of Credit by Monet’s services, and/or request that Credit by
         Monet contact you about its credit repair services constitutes your acceptance to such changes. You are
-        responsible for regularly reviewing the Website Terms, by clicking on the "Terms of Use" link at https://creditbymonet.com.
+        responsible for regularly reviewing the Website Terms, by clicking on the "Terms of Use" link at https://www.creditbymonet.com.
         The Website Terms may be supplemented by additional terms and conditions applicable to
         privacy, specific areas of this Website, or to where particular content or transactions are posted in
         particular areas of the Website and, together with the Website Terms, govern your use of those areas,
@@ -222,32 +221,32 @@ creditbymonet.com<template>
         You hereby acknowledge that any use of the Website and reliance upon any Materials shall be at your
         sole risk and that Credit by Monet shall not be liable for any loss of data, lost profits or any other
         damages or losses resulting from such use.</p>
-        <p>THE WEBSITE AND MATERIALS ARE PROVIDED BY CREDIT BY MONET ON AN "AS IS" BASIS AND AS
-        AVAILABLE, WITHOUT ANY WARRANTY OR REPRESENTATION OF ANY KIND, WHETHER EXPRESS,
-        IMPLIED, STATUTORY OR OTHERWISE. CREDIT BY MONET EXPRESSLY DISCLAIMS ANY AND ALL
-        WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF
-        MERCHANTABILITY, ACCURACY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND THE
-        IMPLIED CONDITIONS OF SATISFACTORY QUALITY AND ACCEPTANCE AS WELL AS ANY LOCAL
-        JURISDICTIONAL ANALOGUES TO THE ABOVE AND OTHER IMPLIED OR STATUTORY WARRANTIES. WE
-        MAKE NO REPRESENTATIONS THAT THE WEBSITE OR MATERIALS WILL MEET YOUR REQUIREMENTS, OR
-        THE RESULTS THAT YOU MAY GAIN FROM YOUR USE OF THE WEBSITE.</p>
-        <p>IN NO EVENT SHALL CREDIT BY MONET, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS OR
-        CONTRACTORS BE LIABLE FOR ANY COMPENSATORY, DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL
-        OR PUNITIVE DAMAGES, LOSS OF DATA, INCOME OR PROFIT, LOSS OF OR DAMAGE TO PROPERTY, OR
-        ANY CLAIMS OF YOU OR OTHER THIRD PARTIES WHATSOEVER WITH RESPECT TO THE WEBSITE OR THE
-        MATERIALS REGARDLESS OF THE LEGAL THEORY ON WHICH THE CLAIM IS BASED, INCLUDING, WITHOUT
-        LIMITATION, ANY DAMAGES THAT RESULT FROM ANY MISTAKE, OMISSION, VIRUS, DELAY OR
-        INTERRUPTION IN OPERATION OR SERVICE OR FAILURE OF PERFORMANCE, WHETHER OR NOT
-        RESULTING FROM AN ACT OF GOD, COMMUNICATIONS FAILURE, THEFT OR OTHERWISE. CREDIT BY
-        MONET SHALL NOT BE LIABLE FOR ANY LOSSES OR DAMAGES WHATSOEVER RESULTING FROM ANY
-        FAILURE OF THE INTERNET. Some states do not allow the exclusion or limitation of liability of
+        <p>The website and materials are provided by Credit by Monet on an "as is" basis and as
+        available, without any warranty or representation of any kind, whether express,
+        implied, statutory or otherwise. Credit by Monet expressly disclaims any and all
+        warranties, express or implied, including without limitation warranties of
+        merchantability, accuracy, fitness for a particular purpose, non-infringement and the
+        implied conditions of satisfactory quality and acceptance as well as any local
+        jurisdictional analogues to the above and other implied or statutory warranties. We
+        make no representations that the website or materials will meet your requirements, or
+        the results that you may gain from your use of the website.</p>
+        <p>In no event shall Credit by Monet, its directors, officers, employees, affiliates, agents or
+        contractors be liable for any compensatory, direct, indirect, incidental, consequential
+        or punitive damages, loss of data, income or profit, loss of or damage to property, or
+        any claims of you or other third parties whatsoever with respect to the website or the
+        materials regardless of the legal theory on which the claim is based, including, without
+        limitation, any damages that result from any mistake, omission, virus, delay or
+        interruption in operation or service or failure of performance, whether or not
+        resulting from an act of god, communications failure, theft or otherwise. Credit by
+        Monet shall not be liable for any losses or damages whatsoever resulting from any
+        failure of the internet. Some states do not allow the exclusion or limitation of liability of
         consequential or incidental damages, so the above exclusions may not apply to all users; in such states
         liability is limited to the fullest extent permitted by law.</p>
-        <p>CREDIT BY MONET DOES NOT GUARANTEE THAT ANY CONTENT, INFORMATION, SOFTWARE OR OTHER
-        MATERIAL ACCESSIBLE THROUGH THE WEBSITE WILL BE FREE OF VIRUSES, "WORMS", "TROJAN
-        HORSES", OR THEIR HARMFUL COMPONENTS. CREDIT BY MONET’S ENTIRE LIABILITY AND YOUR SOLE
-        AND EXCLUSIVE REMEDY WITH RESPECT TO THE USE OF ANY SERVICES PROVIDED BY CREDIT BY MONET
-        SHALL BE CANCELLATION OF YOUR ACCOUNT.</p>
+        <p>Credit by Monet does not guarantee that any content, information, software or other
+        material accessible through the website will be free of viruses, "worms", "trojan
+        horses", or their harmful components. Credit by Monet’s entire liability and your sole
+        and exclusive remedy with respect to the use of any services provided by Credit by Monet
+        shall be cancellation of your account.</p>
 
         <h2>15. Indemnity</h2>
 
@@ -310,9 +309,9 @@ creditbymonet.com<template>
         to be overly broad based on the circumstances at the time enforcement is requested, that such court or
         arbitrator construe and enforce the provision or covenant to the fullest extent that such court or
         arbitrator deems reasonable.</p>
-        <p>THE WEBSITE TERMS SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF
-        THE STATE OF NEW YORK, USA, AS THEY APPLY TO AGREEMENTS MADE SOLELY THEREIN, PROVIDED,
-        HOWEVER, THAT THE ARBITRATION CLAUSE IS GOVERNED BY FEDERAL LAW. The Introduction, The
+        <p>The website terms shall be governed by and construed in accordance with the laws of
+        the state of new york, usa, as they apply to agreements made solely therein, provided,
+        however, that the arbitration clause is governed by federal law. The Introduction, The
         Arbitration Clause, the obligations in the first four paragraphs of the Website Terms, and Sections 6
         through 8, 11 through 15, and 17 through 20 shall survive termination of the Website Terms.
         Credit by Monet shall not be deemed to have waived any rights or remedies in the Website Terms
@@ -325,12 +324,12 @@ creditbymonet.com<template>
         Website Terms supersedes any and all prior agreements and understandings, oral or written, relating to
         the subject matter contained herein.</p>
         <h2>21. Confidentiality of Information</h2>
-        <p>ALL ARTICLES AND MATERIAL DISPLAYED BY US ON THE WEBSITE ARE FOR INFORMATION ONLY
-        (EXCEPTING CREDIT BY MONET’S PRIVACY POLICY AND THE WEBSITE TERMS, WHICH ARE BINDING
-        CONTRACTS), ARE NO SUBSTITUTE FOR SPECIFIC ADVICE, AND ARE IN NO MANNER TO BE CONSIDERED
-        LEGAL ADVICE OR OTHER LICENSED PROFESSIONAL ADVICE OR A SUBSTITUTE THEREFOR. FOR SPECIFIC
-        LEGAL ADVICE REGARDING YOUR PARTICULAR CIRCUMSTANCES, YOU MUST RETAIN LEGAL COUNSEL.
-        Credit by Monet does not represent or guarantee the accuracy or reliability of any advice, opinion,
+        <p>All articles and material displayed by us on the website are for information only
+        (excepting Credit by Monet’s privacy policy and the website terms, which are binding
+        contracts), are no substitute for specific advice, and are in no manner to be considered
+        legal advice or other licensed professional advice or a substitute therefor. For specific
+        legal advice regarding your particular circumstances, you must retain legal counsel.</p>
+        <p>Credit by Monet does not represent or guarantee the accuracy or reliability of any advice, opinion,
         statement, or other information displayed or distributed through the Website. You acknowledge that
         any reliance upon any such materials, opinion, advice, statement, memorandum, or information shall be
         at your sole risk. Credit by Monet reserves the right, in its sole discretion, to correct any errors or
