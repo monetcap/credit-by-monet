@@ -54,7 +54,7 @@
             </p>
             <p>
               <b>Your Consent to Use Electronic Signature and Receive Electronic Communications.</b>
-              By signing this form, you agree that your e-signature shall be deemed your legal signature; you consent to the use of your electronic signature for the purpose of signing documents, and to receive documents and/ or communications (“Communication(s)”) related to Credit Repair Source LLC d/b/a Credit by Monet (“Mon- et”) services electronically unless and until you withdraw your consent as described herein. Your consent includes, but is not limited to the following communications:
+              By signing this form, you agree that your e-signature shall be deemed your legal signature; you consent to the use of your electronic signature for the purpose of signing documents, and to receive documents and/ or communications (“Communication(s)”) related to CRSO LLC d/b/a Credit by Monet (“Mon- et”) services electronically unless and until you withdraw your consent as described herein. Your consent includes, but is not limited to the following communications:
               <ul>
                 <li>notices</li>
                 <li>disclosures</li>
