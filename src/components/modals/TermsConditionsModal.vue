@@ -123,9 +123,7 @@ creditbymonet.com<template>
           Federal Trade Commission<br>
           Washington, D.C. 20580</p>
 
-          <!-- Renumber these -->
-
-        <h2>6. Ownership</h2>
+        <h2>8. Ownership</h2>
         <p>The Website contains information, content or advertisements text, photographs, designs, graphics,
         images, sound and video recordings, animation and other materials and effects (collectively, the
         "Content") that are protected by copyrights, trademarks, service marks, trade dress, patents or other
@@ -169,7 +167,7 @@ creditbymonet.com<template>
         off the Website if we think that they are creating problems, possible legal liabilities, or acting
         inconsistently with the letter or spirit of our policies. We also reserve the right to cancel unconfirmed
         accounts.</p>
-        <h2>7. License</h2>
+        <h2>9. License</h2>
         <p>By using the Website, uploading content to or submitting any materials for use on the Website, you
         grant (or warrant that the owner of such rights has expressly granted) Credit by Monet a perpetual,
         royalty-free, irrevocable, non-exclusive right and license to use, reproduce, modify, adapt, publish,
@@ -182,7 +180,7 @@ creditbymonet.com<template>
         Website, may be used or licensed by Credit by Monet for various purposes including but not limited to
         conducting certain analytical research, performance tracking, benchmarking, helping to improve
         products and services and to assist in troubleshooting and technical support.</p>
-        <h2>8. Automated Activity</h2>
+        <h2>10. Automated Activity</h2>
         <p>The Website may use robot exclusion methods, which include robots.txt files and HTML meta tags,
         which expressly allow and/or exclude specified automated programs from accessing certain portions of
         the Website. Much of the information on the Website is updated on a real time basis and is proprietary
@@ -192,7 +190,7 @@ creditbymonet.com<template>
         indicated in the then current robots.txt file or HTML meta tags on the Website. Additionally, you agree
         that you will not bypass our robot exclusion methods or other measures we may use to prevent or
         restrict access to the Website.</p>
-        <h2>9. Linking</h2>
+        <h2>11. Linking</h2>
         <p>You may provide links only to the homepage of this Website, provided (a) you do not remove or
         obscure, by framing or otherwise, any portion of the homepage, (b) you give Credit by Monet notice of
         such link by sending an e-mail to support@creditbymonet.com and (c) you discontinue providing links to this
@@ -200,7 +198,7 @@ creditbymonet.com<template>
         you should forward your request to Credit by Monet at support@creditbymonet.com and Credit by Monet will
         notify you if, within its sole and unfettered discretion, permission is granted, and, if so, the terms and
         conditions of the permission.</p>
-        <h2>10. Representations</h2>
+        <h2>12. Representations</h2>
         <p>You represent and warrant to us that (a) you are legally capable to enter into contracts, (b) you are
         providing us at all times true, accurate and up to date information about yourself, (c) you will comply at
         all times with the Website Terms and applicable law and (d) your use of the Website and any
@@ -215,11 +213,11 @@ creditbymonet.com<template>
         foregoing and you represent and warrant that you are not located in, under the control of, or a national
         or resident of any such country or on any such list, and that you acknowledge you are responsible to
         obtain any necessary U.S. government authorization to ensure compliance with U.S. law.</p>
-        <h2>11. Disclaimer</h2>
+        <h2>13. Disclaimer</h2>
         <p>Credit by Monet makes every effort to ensure the information presented in, on or through its Website is
         accurate; however, Credit by Monet makes no guarantee as to such information, and is not responsible
         for any resulting loss or damage.</p>
-        <h2>12. Warranty, Liability, Indemnification</h2>
+        <h2>14. Warranty, Liability, Indemnification</h2>
         <p>Credit by Monet makes no representations regarding the availability and performance of its Website.
         You hereby acknowledge that any use of the Website and reliance upon any Materials shall be at your
         sole risk and that Credit by Monet shall not be liable for any loss of data, lost profits or any other
@@ -251,7 +249,7 @@ creditbymonet.com<template>
         AND EXCLUSIVE REMEDY WITH RESPECT TO THE USE OF ANY SERVICES PROVIDED BY CREDIT BY MONET
         SHALL BE CANCELLATION OF YOUR ACCOUNT.</p>
 
-        <h2>13. Indemnity</h2>
+        <h2>15. Indemnity</h2>
 
         <p>You agree to indemnify, defend, and hold harmless Credit by Monet, its officers, directors, employees,
         agents, representatives, vendors and distributors from and against any and all claims, liabilities,
@@ -260,7 +258,7 @@ creditbymonet.com<template>
         representation or obligation under the Website Terms. We reserve the right to assume the exclusive
         defense and control of any matter otherwise subject to indemnification by you and, in such case, you
         agree to cooperate with our defense of such claim.</p>
-        <h2>14. Privacy</h2>
+        <h2>16. Privacy</h2>
         <p>We may, subject to and in accordance with our Privacy Policy for marketing and other purposes, collect,
         process and transmit certain data obtained from and about you in the course of your accessing the
         Website or during a phone consultation, including information collected in the course of an abandoned
@@ -269,7 +267,7 @@ creditbymonet.com<template>
         Privacy Policy and under applicable privacy and data protection legislation. Information on how and
         what type of data (if any) is held about you can be obtained by clicking here to review our Privacy Policy
         or by contacting us.</p>
-        <h2>15. Electronic Notices and Transactions</h2>
+        <h2>17. Electronic Notices and Transactions</h2>
         <p>You agree to transact with us electronically. This means you agree to accept any terms and conditions
         and to transact any business with us by electronic means, which includes receiving all documents in
         HTML or PDF format and communicating over the Internet. You also certify that you are at least 18 years
@@ -283,15 +281,15 @@ creditbymonet.com<template>
         electronically with us, you may no longer use the Website or Credit by Monet’s services. You can
         retrieve and review the Website Terms at any time by visiting https://www.creditbymonet.com and may receive
         paper copies by calling Credit by Monet at +1 (800) 281-0606</p>
-        <h2>16. Access</h2>
+        <h2>18. Access</h2>
         <p>You are responsible for obtaining at your own expense all equipment and services needed to access and
         use the Website, including all devices, Internet browsers and Internet access. If you access the Website
         or a Website application through a mobile or wireless device, you are responsible for all fees that your
         carrier may charge you for data, text messaging and other wireless access or communications services.</p>
-        <h2>17. Notice Regarding Technology</h2>
+        <h2>19. Notice Regarding Technology</h2>
         <p>Your use of the Website must comply with all applicable laws in the territory in which you access and
         use the Website.</p>
-        <h2>18. Miscellaneous</h2>
+        <h2>20. Miscellaneous</h2>
         <p>Credit by Monet reserves the right to investigate complaints or reported violations of the Website Terms
         and to take any action Credit by Monet deems appropriate including but not limited to reporting any
         suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing
@@ -326,7 +324,7 @@ creditbymonet.com<template>
         Monet, except as you and Credit by Monet may later agree in writing to modify the Website Terms. The
         Website Terms supersedes any and all prior agreements and understandings, oral or written, relating to
         the subject matter contained herein.</p>
-        <h2>19. Confidentiality of Information</h2>
+        <h2>21. Confidentiality of Information</h2>
         <p>ALL ARTICLES AND MATERIAL DISPLAYED BY US ON THE WEBSITE ARE FOR INFORMATION ONLY
         (EXCEPTING CREDIT BY MONET’S PRIVACY POLICY AND THE WEBSITE TERMS, WHICH ARE BINDING
         CONTRACTS), ARE NO SUBSTITUTE FOR SPECIFIC ADVICE, AND ARE IN NO MANNER TO BE CONSIDERED
