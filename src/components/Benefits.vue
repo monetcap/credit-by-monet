@@ -20,8 +20,8 @@
               <h2 class="uk-text-uppercase uk-margin-top">Why Credit by Monet?</h2>
 
               <p class="uk-text-lead">Credit by Monet is able to repair your
-              credit more quickly than those using traditional methods. We have
-              the experience to provide you with the consult you need for a
+              credit more quickly than those using traditional methods. We are
+              dedicated to providing you with the consult you need for a
               sustainable, long-term fix.</p>
 
               <p class="uk-text-lead">Creating financial freedom means creating
